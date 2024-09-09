@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<log xes.version="1849-2016" xes.features="nested-attributes" xmlns="http://www.xes-standard.org/">
+	<extension name="Concept" prefix="concept" uri="http://www.xes-standard.org/concept.xesext" />
+	<extension name="Time" prefix="time" uri="http://www.xes-standard.org/time.xesext" />
+	<extension name="Organizational" prefix="org" uri="http://www.xes-standard.org/org.xesext" />
+	<extension name="Cost" prefix="cost" uri="http://www.xes-standard.org/cost.xesext" />
+	<string key="origin" value="csv" />
+	<trace>
+		<string key="concept:name" value="1" />
+		<event>
+			<string key="concept:name" value="Start" />
+			<string key="time:timestamp" value="2023-01-01 10:00:00" />
+			<int key="cost" value="100" />
+			<string key="org:resource" value="John" />
+		</event>
+		<event>
+			<string key="concept:name" value="Task A" />
+			<string key="time:timestamp" value="2023-01-01 10:10:00" />
+			<int key="cost" value="200" />
+			<string key="org:resource" value="Susan" />
+		</event>
+		<event>
+			<string key="concept:name" value="Task B" />
+			<string key="time:timestamp" value="2023-01-01 10:20:00" />
+			<int key="cost" value="150" />
+			<string key="org:resource" value="John" />
+		</event>
+		<event>
+			<string key="concept:name" value="End" />
+			<string key="time:timestamp" value="2023-01-01 10:30:00" />
+			<int key="cost" value="50" />
+			<string key="org:resource" value="Susan" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="2" />
+		<event>
+			<string key="concept:name" value="Start" />
+			<string key="time:timestamp" value="2023-01-01 11:00:00" />
+			<int key="cost" value="120" />
+			<string key="org:resource" value="John" />
+		</event>
+		<event>
+			<string key="concept:name" value="Task A" />
+			<string key="time:timestamp" value="2023-01-01 11:10:00" />
+			<int key="cost" value="250" />
+			<string key="org:resource" value="Susan" />
+		</event>
+		<event>
+			<string key="concept:name" value="Task C" />
+			<string key="time:timestamp" value="2023-01-01 11:25:00" />
+			<int key="cost" value="180" />
+			<string key="org:resource" value="Mike" />
+		</event>
+		<event>
+			<string key="concept:name" value="End" />
+			<string key="time:timestamp" value="2023-01-01 11:40:00" />
+			<int key="cost" value="70" />
+			<string key="org:resource" value="John" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="3" />
+		<event>
+			<string key="concept:name" value="Start" />
+			<string key="time:timestamp" value="2023-01-01 12:00:00" />
+			<int key="cost" value="130" />
+			<string key="org:resource" value="John" />
+		</event>
+		<event>
+			<string key="concept:name" value="Task B" />
+			<string key="time:timestamp" value="2023-01-01 12:15:00" />
+			<int key="cost" value="300" />
+			<string key="org:resource" value="Susan" />
+		</event>
+		<event>
+			<string key="concept:name" value="Task C" />
+			<string key="time:timestamp" value="2023-01-01 12:30:00" />
+			<int key="cost" value="170" />
+			<string key="org:resource" value="Mike" />
+		</event>
+		<event>
+			<string key="concept:name" value="End" />
+			<string key="time:timestamp" value="2023-01-01 12:45:00" />
+			<int key="cost" value="80" />
+			<string key="org:resource" value="Susan" />
+		</event>
+	</trace>
+</log>

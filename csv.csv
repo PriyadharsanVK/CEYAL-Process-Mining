@@ -1,0 +1,13 @@
+case:concept:name,concept:name,time:timestamp,cost,org:resource
+1,Start,2023-01-01 10:00:00,100,John
+1,Task A,2023-01-01 10:10:00,200,Susan
+1,Task B,2023-01-01 10:20:00,150,John
+1,End,2023-01-01 10:30:00,50,Susan
+2,Start,2023-01-01 11:00:00,120,John
+2,Task A,2023-01-01 11:10:00,250,Susan
+2,Task C,2023-01-01 11:25:00,180,Mike
+2,End,2023-01-01 11:40:00,70,John
+3,Start,2023-01-01 12:00:00,130,John
+3,Task B,2023-01-01 12:15:00,300,Susan
+3,Task C,2023-01-01 12:30:00,170,Mike
+3,End,2023-01-01 12:45:00,80,Susan

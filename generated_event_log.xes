@@ -1,0 +1,3303 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<log xes.version="1849-2016" xes.features="nested-attributes" xmlns="http://www.xes-standard.org/">
+	<trace>
+		<string key="case:concept:name" value="Case_1" />
+		<event>
+			<string key="concept:name" value="Close Order" />
+			<date key="time:timestamp" value="2024-09-05T23:14:18.057649" />
+			<string key="org:resource" value="User B" />
+			<int key="cost" value="704" />
+		</event>
+		<event>
+			<string key="concept:name" value="Ship Order" />
+			<date key="time:timestamp" value="2024-09-07T23:14:18.057649" />
+			<string key="org:resource" value="User C" />
+			<int key="cost" value="850" />
+		</event>
+		<event>
+			<string key="concept:name" value="Close Order" />
+			<date key="time:timestamp" value="2024-09-08T23:14:18.057649" />
+			<string key="org:resource" value="User B" />
+			<int key="cost" value="515" />
+		</event>
+		<event>
+			<string key="concept:name" value="Complete Payment" />
+			<date key="time:timestamp" value="2024-09-09T23:14:18.057649" />
+			<string key="org:resource" value="User B" />
+			<int key="cost" value="705" />
+		</event>
+		<event>
+			<string key="concept:name" value="Approve Order" />
+			<date key="time:timestamp" value="2024-09-11T23:14:18.057649" />
+			<string key="org:resource" value="User A" />
+			<int key="cost" value="993" />
+		</event>
+	</trace>
+	<trace>
+		<string key="case:concept:name" value="Case_2" />
+		<event>
+			<string key="concept:name" value="Approve Order" />
+			<date key="time:timestamp" value="2024-09-05T23:14:18.057649" />
+			<string key="org:resource" value="User B" />
+			<int key="cost" value="340" />
+		</event>
+		<event>
+			<string key="concept:name" value="Ship Order" />
+			<date key="time:timestamp" value="2024-09-10T23:14:18.057649" />
+			<string key="org:resource" value="User C" />
+			<int key="cost" value="352" />
+		</event>
+		<event>
+			<string key="concept:name" value="Close Order" />
+			<date key="time:timestamp" value="2024-09-14T23:14:18.057649" />
+			<string key="org:resource" value="User C" />
+			<int key="cost" value="640" />
+		</event>
+		<event>
+			<string key="concept:name" value="Close Order" />
+			<date key="time:timestamp" value="2024-09-18T23:14:18.057649" />
+			<string key="org:resource" value="User C" />
+			<int key="cost" value="496" />
+		</event>
+		<event>
+			<string key="concept:name" value="Ship Order" />
+			<date key="time:timestamp" value="2024-09-22T23:14:18.057649" />
+			<string key="org:resource" value="User C" />
+			<int key="cost" value="238" />
+		</event>
+	</trace>
+	<trace>
+		<string key="case:concept:name" value="Case_3" />
+		<event>
+			<string key="concept:name" value="Create Order" />
+			<date key="time:timestamp" value="2024-09-05T23:14:18.057649" />
+			<string key="org:resource" value="User B" />
+			<int key="cost" value="624" />
+		</event>
+		<event>
+			<string key="concept:name" value="Approve Order" />
+			<date key="time:timestamp" value="2024-09-07T23:14:18.057649" />
+			<string key="org:resource" value="User B" />
+			<int key="cost" value="349" />
+		</event>
+		<event>
+			<string key="concept:name" value="Complete Payment" />
+			<date key="time:timestamp" value="2024-09-12T23:14:18.057649" />
+			<string key="org:resource" value="User C" />
+			<int key="cost" value="238" />
+		</event>
+		<event>
+			<string key="concept:name" value="Approve Order" />
+			<date key="time:timestamp" value="2024-09-17T23:14:18.057649" />
+			<string key="org:resource" value="User B" />
+			<int key="cost" value="324" />
+		</event>
+		<event>
+			<string key="concept:name" value="Approve Order" />
+			<date key="time:timestamp" value="2024-09-20T23:14:18.057649" />
+			<string key="org:resource" value="User A" />
+			<int key="cost" value="545" />
+		</event>
+	</trace>
+	<trace>
+		<string key="case:concept:name" value="Case_4" />
+		<event>
+			<string key="concept:name" value="Create Order" />
+			<date key="time:timestamp" value="2024-09-05T23:14:18.057649" />
+			<string key="org:resource" value="User A" />
+			<int key="cost" value="621" />
+		</event>
+		<event>
+			<string key="concept:name" value="Complete Payment" />
+			<date key="time:timestamp" value="2024-09-06T23:14:18.057649" />
+			<string key="org:resource" value="User C" />
+			<int key="cost" value="918" />
+		</event>
+		<event>
+			<string key="concept:name" value="Complete Payment" />
+			<date key="time:timestamp" value="2024-09-10T23:14:18.057649" />
+			<string key="org:resource" value="User C" />
+			<int key="cost" value="443" />
+		</event>
+		<event>
+			<string key="concept:name" value="Ship Order" />
+			<date key="time:timestamp" value="2024-09-14T23:14:18.057649" />
+			<string key="org:resource" value="User C" />
+			<int key="cost" value="956" />
+		</event>
+		<event>
+			<string key="concept:name" value="Complete Payment" />
+			<date key="time:timestamp" value="2024-09-19T23:14:18.057649" />
+			<string key="org:resource" value="User A" />
+			<int key="cost" value="884" />
+		</event>
+	</trace>
+	<trace>
+		<string key="case:concept:name" value="Case_5" />
+		<event>
+			<string key="concept:name" value="Approve Order" />
+			<date key="time:timestamp" value="2024-09-05T23:14:18.057649" />
+			<string key="org:resource" value="User C" />
+			<int key="cost" value="522" />
+		</event>
+		<event>
+			<string key="concept:name" value="Close Order" />
+			<date key="time:timestamp" value="2024-09-06T23:14:18.057649" />
+			<string key="org:resource" value="User C" />
+			<int key="cost" value="995" />
+		</event>
+		<event>
+			<string key="concept:name" value="Complete Payment" />
+			<date key="time:timestamp" value="2024-09-09T23:14:18.057649" />
+			<string key="org:resource" value="User B" />
+			<int key="cost" value="113" />
+		</event>
+		<event>
+			<string key="concept:name" value="Ship Order" />
+			<date key="time:timestamp" value="2024-09-13T23:14:18.057649" />
+			<string key="org:resource" value="User B" />
+			<int key="cost" value="438" />
+		</event>
+		<event>
+			<string key="concept:name" value="Close Order" />
+			<date key="time:timestamp" value="2024-09-18T23:14:18.057649" />
+			<string key="org:resource" value="User B" />
+			<int key="cost" value="380" />
+		</event>
+	</trace>
+	<trace>
+		<string key="case:concept:name" value="Case_6" />
+		<event>
+			<string key="concept:name" value="Ship Order" />
+			<date key="time:timestamp" value="2024-09-05T23:14:18.057649" />
+			<string key="org:resource" value="User C" />
+			<int key="cost" value="599" />
+		</event>
+		<event>
+			<string key="concept:name" value="Complete Payment" />
+			<date key="time:timestamp" value="2024-09-09T23:14:18.057649" />
+			<string key="org:resource" value="User C" />
+			<int key="cost" value="965" />
+		</event>
+		<event>
+			<string key="concept:name" value="Approve Order" />
+			<date key="time:timestamp" value="2024-09-10T23:14:18.057649" />
+			<string key="org:resource" value="User C" />
+			<int key="cost" value="997" />
+		</event>
+		<event>
+			<string key="concept:name" value="Complete Payment" />
+			<date key="time:timestamp" value="2024-09-13T23:14:18.057649" />
+			<string key="org:resource" value="User C" />
+			<int key="cost" value="589" />
+		</event>
+		<event>
+			<string key="concept:name" value="Approve Order" />
+			<date key="time:timestamp" value="2024-09-16T23:14:18.057649" />
+			<string key="org:resource" value="User C" />
+			<int key="cost" value="148" />
+		</event>
+	</trace>
+	<trace>
+		<string key="case:concept:name" value="Case_7" />
+		<event>
+			<string key="concept:name" value="Approve Order" />
+			<date key="time:timestamp" value="2024-09-05T23:14:18.057649" />
+			<string key="org:resource" value="User B" />
+			<int key="cost" value="572" />
+		</event>
+		<event>
+			<string key="concept:name" value="Ship Order" />
+			<date key="time:timestamp" value="2024-09-09T23:14:18.057649" />
+			<string key="org:resource" value="User B" />
+			<int key="cost" value="885" />
+		</event>
+		<event>
+			<string key="concept:name" value="Approve Order" />
+			<date key="time:timestamp" value="2024-09-13T23:14:18.057649" />
+			<string key="org:resource" value="User A" />
+			<int key="cost" value="184" />
+		</event>
+		<event>
+			<string key="concept:name" value="Approve Order" />
+			<date key="time:timestamp" value="2024-09-15T23:14:18.057649" />
+			<string key="org:resource" value="User B" />
+			<int key="cost" value="199" />
+		</event>
+		<event>
+			<string key="concept:name" value="Approve Order" />
+			<date key="time:timestamp" value="2024-09-16T23:14:18.057649" />
+			<string key="org:resource" value="User C" />
+			<int key="cost" value="564" />
+		</event>
+	</trace>
+	<trace>
+		<string key="case:concept:name" value="Case_8" />
+		<event>
+			<string key="concept:name" value="Approve Order" />
+			<date key="time:timestamp" value="2024-09-05T23:14:18.057649" />
+			<string key="org:resource" value="User A" />
+			<int key="cost" value="628" />
+		</event>
+		<event>
+			<string key="concept:name" value="Approve Order" />
+			<date key="time:timestamp" value="2024-09-06T23:14:18.057649" />
+			<string key="org:resource" value="User C" />
+			<int key="cost" value="664" />
+		</event>
+		<event>
+			<string key="concept:name" value="Complete Payment" />
+			<date key="time:timestamp" value="2024-09-07T23:14:18.057649" />
+			<string key="org:resource" value="User A" />
+			<int key="cost" value="442" />
+		</event>
+		<event>
+			<string key="concept:name" value="Close Order" />
+			<date key="time:timestamp" value="2024-09-10T23:14:18.057649" />
+			<string key="org:resource" value="User C" />
+			<int key="cost" value="576" />
+		</event>
+		<event>
+			<string key="concept:name" value="Ship Order" />
+			<date key="time:timestamp" value="2024-09-13T23:14:18.057649" />
+			<string key="org:resource" value="User B" />
+			<int key="cost" value="466" />
+		</event>
+	</trace>
+	<trace>
+		<string key="case:concept:name" value="Case_9" />
+		<event>
+			<string key="concept:name" value="Complete Payment" />
+			<date key="time:timestamp" value="2024-09-05T23:14:18.057649" />
+			<string key="org:resource" value="User C" />
+			<int key="cost" value="836" />
+		</event>
+		<event>
+			<string key="concept:name" value="Complete Payment" />
+			<date key="time:timestamp" value="2024-09-07T23:14:18.057649" />
+			<string key="org:resource" value="User A" />
+			<int key="cost" value="674" />
+		</event>
+		<event>
+			<string key="concept:name" value="Complete Payment" />
+			<date key="time:timestamp" value="2024-09-10T23:14:18.057649" />
+			<string key="org:resource" value="User B" />
+			<int key="cost" value="227" />
+		</event>
+		<event>
+			<string key="concept:name" value="Complete Payment" />
+			<date key="time:timestamp" value="2024-09-11T23:14:18.057649" />
+			<string key="org:resource" value="User B" />
+			<int key="cost" value="526" />
+		</event>
+		<event>
+			<string key="concept:name" value="Create Order" />
+			<date key="time:timestamp" value="2024-09-12T23:14:18.057649" />
+			<string key="org:resource" value="User B" />
+			<int key="cost" value="517" />
+		</event>
+	</trace>
+	<trace>
+		<string key="case:concept:name" value="Case_10" />
+		<event>
+			<string key="concept:name" value="Create Order" />
+			<date key="time:timestamp" value="2024-09-05T23:14:18.057649" />
+			<string key="org:resource" value="User B" />
+			<int key="cost" value="469" />
+		</event>
+		<event>
+			<string key="concept:name" value="Create Order" />
+			<date key="time:timestamp" value="2024-09-09T23:14:18.057649" />
+			<string key="org:resource" value="User C" />
+			<int key="cost" value="267" />
+		</event>
+		<event>
+			<string key="concept:name" value="Complete Payment" />
+			<date key="time:timestamp" value="2024-09-13T23:14:18.057649" />
+			<string key="org:resource" value="User A" />
+			<int key="cost" value="323" />
+		</event>
+		<event>
+			<string key="concept:name" value="Ship Order" />
+			<date key="time:timestamp" value="2024-09-15T23:14:18.057649" />
+			<string key="org:resource" value="User C" />
+			<int key="cost" value="814" />
+		</event>
+		<event>
+			<string key="concept:name" value="Approve Order" />
+			<date key="time:timestamp" value="2024-09-19T23:14:18.057649" />
+			<string key="org:resource" value="User B" />
+			<int key="cost" value="997" />
+		</event>
+	</trace>
+	<trace>
+		<string key="case:concept:name" value="Case_11" />
+		<event>
+			<string key="concept:name" value="Approve Order" />
+			<date key="time:timestamp" value="2024-09-05T23:14:18.057649" />
+			<string key="org:resource" value="User B" />
+			<int key="cost" value="599" />
+		</event>
+		<event>
+			<string key="concept:name" value="Complete Payment" />
+			<date key="time:timestamp" value="2024-09-08T23:14:18.057649" />
+			<string key="org:resource" value="User A" />
+			<int key="cost" value="645" />
+		</event>
+		<event>
+			<string key="concept:name" value="Close Order" />
+			<date key="time:timestamp" value="2024-09-10T23:14:18.057649" />
+			<string key="org:resource" value="User B" />
+			<int key="cost" value="260" />
+		</event>
+		<event>
+			<string key="concept:name" value="Complete Payment" />
+			<date key="time:timestamp" value="2024-09-12T23:14:18.057649" />
+			<string key="org:resource" value="User C" />
+			<int key="cost" value="698" />
+		</event>
+		<event>
+			<string key="concept:name" value="Approve Order" />
+			<date key="time:timestamp" value="2024-09-15T23:14:18.057649" />
+			<string key="org:resource" value="User A" />
+			<int key="cost" value="699" />
+		</event>
+	</trace>
+	<trace>
+		<string key="case:concept:name" value="Case_12" />
+		<event>
+			<string key="concept:name" value="Complete Payment" />
+			<date key="time:timestamp" value="2024-09-05T23:14:18.057649" />
+			<string key="org:resource" value="User C" />
+			<int key="cost" value="670" />
+		</event>
+		<event>
+			<string key="concept:name" value="Close Order" />
+			<date key="time:timestamp" value="2024-09-07T23:14:18.057649" />
+			<string key="org:resource" value="User A" />
+			<int key="cost" value="452" />
+		</event>
+		<event>
+			<string key="concept:name" value="Approve Order" />
+			<date key="time:timestamp" value="2024-09-08T23:14:18.057649" />
+			<string key="org:resource" value="User A" />
+			<int key="cost" value="297" />
+		</event>
+		<event>
+			<string key="concept:name" value="Ship Order" />
+			<date key="time:timestamp" value="2024-09-10T23:14:18.057649" />
+			<string key="org:resource" value="User A" />
+			<int key="cost" value="296" />
+		</event>
+		<event>
+			<string key="concept:name" value="Create Order" />
+			<date key="time:timestamp" value="2024-09-12T23:14:18.057649" />
+			<string key="org:resource" value="User C" />
+			<int key="cost" value="257" />
+		</event>
+	</trace>
+	<trace>
+		<string key="case:concept:name" value="Case_13" />
+		<event>
+			<string key="concept:name" value="Close Order" />
+			<date key="time:timestamp" value="2024-09-05T23:14:18.057649" />
+			<string key="org:resource" value="User A" />
+			<int key="cost" value="713" />
+		</event>
+		<event>
+			<string key="concept:name" value="Approve Order" />
+			<date key="time:timestamp" value="2024-09-06T23:14:18.057649" />
+			<string key="org:resource" value="User A" />
+			<int key="cost" value="582" />
+		</event>
+		<event>
+			<string key="concept:name" value="Create Order" />
+			<date key="time:timestamp" value="2024-09-07T23:14:18.057649" />
+			<string key="org:resource" value="User A" />
+			<int key="cost" value="187" />
+		</event>
+		<event>
+			<string key="concept:name" value="Ship Order" />
+			<date key="time:timestamp" value="2024-09-11T23:14:18.057649" />
+			<string key="org:resource" value="User C" />
+			<int key="cost" value="107" />
+		</event>
+		<event>
+			<string key="concept:name" value="Approve Order" />
+			<date key="time:timestamp" value="2024-09-13T23:14:18.057649" />
+			<string key="org:resource" value="User A" />
+			<int key="cost" value="943" />
+		</event>
+	</trace>
+	<trace>
+		<string key="case:concept:name" value="Case_14" />
+		<event>
+			<string key="concept:name" value="Ship Order" />
+			<date key="time:timestamp" value="2024-09-05T23:14:18.057649" />
+			<string key="org:resource" value="User C" />
+			<int key="cost" value="165" />
+		</event>
+		<event>
+			<string key="concept:name" value="Close Order" />
+			<date key="time:timestamp" value="2024-09-06T23:14:18.057649" />
+			<string key="org:resource" value="User A" />
+			<int key="cost" value="800" />
+		</event>
+		<event>
+			<string key="concept:name" value="Ship Order" />
+			<date key="time:timestamp" value="2024-09-11T23:14:18.057649" />
+			<string key="org:resource" value="User C" />
+			<int key="cost" value="885" />
+		</event>
+		<event>
+			<string key="concept:name" value="Complete Payment" />
+			<date key="time:timestamp" value="2024-09-13T23:14:18.057649" />
+			<string key="org:resource" value="User C" />
+			<int key="cost" value="792" />
+		</event>
+		<event>
+			<string key="concept:name" value="Complete Payment" />
+			<date key="time:timestamp" value="2024-09-16T23:14:18.057649" />
+			<string key="org:resource" value="User B" />
+			<int key="cost" value="838" />
+		</event>
+	</trace>
+	<trace>
+		<string key="case:concept:name" value="Case_15" />
+		<event>
+			<string key="concept:name" value="Close Order" />
+			<date key="time:timestamp" value="2024-09-05T23:14:18.057649" />
+			<string key="org:resource" value="User B" />
+			<int key="cost" value="860" />
+		</event>
+		<event>
+			<string key="concept:name" value="Ship Order" />
+			<date key="time:timestamp" value="2024-09-08T23:14:18.057649" />
+			<string key="org:resource" value="User A" />
+			<int key="cost" value="947" />
+		</event>
+		<event>
+			<string key="concept:name" value="Complete Payment" />
+			<date key="time:timestamp" value="2024-09-09T23:14:18.057649" />
+			<string key="org:resource" value="User C" />
+			<int key="cost" value="325" />
+		</event>
+		<event>
+			<string key="concept:name" value="Complete Payment" />
+			<date key="time:timestamp" value="2024-09-13T23:14:18.057649" />
+			<string key="org:resource" value="User B" />
+			<int key="cost" value="412" />
+		</event>
+		<event>
+			<string key="concept:name" value="Ship Order" />
+			<date key="time:timestamp" value="2024-09-17T23:14:18.057649" />
+			<string key="org:resource" value="User C" />
+			<int key="cost" value="491" />
+		</event>
+	</trace>
+	<trace>
+		<string key="case:concept:name" value="Case_16" />
+		<event>
+			<string key="concept:name" value="Close Order" />
+			<date key="time:timestamp" value="2024-09-05T23:14:18.057649" />
+			<string key="org:resource" value="User C" />
+			<int key="cost" value="141" />
+		</event>
+		<event>
+			<string key="concept:name" value="Approve Order" />
+			<date key="time:timestamp" value="2024-09-06T23:14:18.057649" />
+			<string key="org:resource" value="User B" />
+			<int key="cost" value="810" />
+		</event>
+		<event>
+			<string key="concept:name" value="Ship Order" />
+			<date key="time:timestamp" value="2024-09-08T23:14:18.057649" />
+			<string key="org:resource" value="User B" />
+			<int key="cost" value="595" />
+		</event>
+		<event>
+			<string key="concept:name" value="Ship Order" />
+			<date key="time:timestamp" value="2024-09-12T23:14:18.057649" />
+			<string key="org:resource" value="User C" />
+			<int key="cost" value="221" />
+		</event>
+		<event>
+			<string key="concept:name" value="Close Order" />
+			<date key="time:timestamp" value="2024-09-15T23:14:18.057649" />
+			<string key="org:resource" value="User C" />
+			<int key="cost" value="806" />
+		</event>
+	</trace>
+	<trace>
+		<string key="case:concept:name" value="Case_17" />
+		<event>
+			<string key="concept:name" value="Close Order" />
+			<date key="time:timestamp" value="2024-09-05T23:14:18.057649" />
+			<string key="org:resource" value="User B" />
+			<int key="cost" value="297" />
+		</event>
+		<event>
+			<string key="concept:name" value="Approve Order" />
+			<date key="time:timestamp" value="2024-09-08T23:14:18.057649" />
+			<string key="org:resource" value="User A" />
+			<int key="cost" value="176" />
+		</event>
+		<event>
+			<string key="concept:name" value="Complete Payment" />
+			<date key="time:timestamp" value="2024-09-11T23:14:18.057649" />
+			<string key="org:resource" value="User C" />
+			<int key="cost" value="330" />
+		</event>
+		<event>
+			<string key="concept:name" value="Ship Order" />
+			<date key="time:timestamp" value="2024-09-12T23:14:18.057649" />
+			<string key="org:resource" value="User B" />
+			<int key="cost" value="394" />
+		</event>
+		<event>
+			<string key="concept:name" value="Create Order" />
+			<date key="time:timestamp" value="2024-09-14T23:14:18.057649" />
+			<string key="org:resource" value="User A" />
+			<int key="cost" value="993" />
+		</event>
+	</trace>
+	<trace>
+		<string key="case:concept:name" value="Case_18" />
+		<event>
+			<string key="concept:name" value="Complete Payment" />
+			<date key="time:timestamp" value="2024-09-05T23:14:18.057649" />
+			<string key="org:resource" value="User A" />
+			<int key="cost" value="101" />
+		</event>
+		<event>
+			<string key="concept:name" value="Complete Payment" />
+			<date key="time:timestamp" value="2024-09-09T23:14:18.057649" />
+			<string key="org:resource" value="User B" />
+			<int key="cost" value="652" />
+		</event>
+		<event>
+			<string key="concept:name" value="Approve Order" />
+			<date key="time:timestamp" value="2024-09-11T23:14:18.057649" />
+			<string key="org:resource" value="User C" />
+			<int key="cost" value="328" />
+		</event>
+		<event>
+			<string key="concept:name" value="Ship Order" />
+			<date key="time:timestamp" value="2024-09-13T23:14:18.057649" />
+			<string key="org:resource" value="User B" />
+			<int key="cost" value="373" />
+		</event>
+		<event>
+			<string key="concept:name" value="Create Order" />
+			<date key="time:timestamp" value="2024-09-16T23:14:18.057649" />
+			<string key="org:resource" value="User B" />
+			<int key="cost" value="918" />
+		</event>
+	</trace>
+	<trace>
+		<string key="case:concept:name" value="Case_19" />
+		<event>
+			<string key="concept:name" value="Complete Payment" />
+			<date key="time:timestamp" value="2024-09-05T23:14:18.057649" />
+			<string key="org:resource" value="User B" />
+			<int key="cost" value="935" />
+		</event>
+		<event>
+			<string key="concept:name" value="Ship Order" />
+			<date key="time:timestamp" value="2024-09-07T23:14:18.057649" />
+			<string key="org:resource" value="User A" />
+			<int key="cost" value="171" />
+		</event>
+		<event>
+			<string key="concept:name" value="Ship Order" />
+			<date key="time:timestamp" value="2024-09-12T23:14:18.057649" />
+			<string key="org:resource" value="User A" />
+			<int key="cost" value="752" />
+		</event>
+		<event>
+			<string key="concept:name" value="Approve Order" />
+			<date key="time:timestamp" value="2024-09-17T23:14:18.057649" />
+			<string key="org:resource" value="User C" />
+			<int key="cost" value="373" />
+		</event>
+		<event>
+			<string key="concept:name" value="Complete Payment" />
+			<date key="time:timestamp" value="2024-09-19T23:14:18.057649" />
+			<string key="org:resource" value="User A" />
+			<int key="cost" value="219" />
+		</event>
+	</trace>
+	<trace>
+		<string key="case:concept:name" value="Case_20" />
+		<event>
+			<string key="concept:name" value="Close Order" />
+			<date key="time:timestamp" value="2024-09-05T23:14:18.057649" />
+			<string key="org:resource" value="User C" />
+			<int key="cost" value="633" />
+		</event>
+		<event>
+			<string key="concept:name" value="Ship Order" />
+			<date key="time:timestamp" value="2024-09-10T23:14:18.057649" />
+			<string key="org:resource" value="User A" />
+			<int key="cost" value="459" />
+		</event>
+		<event>
+			<string key="concept:name" value="Create Order" />
+			<date key="time:timestamp" value="2024-09-13T23:14:18.057649" />
+			<string key="org:resource" value="User C" />
+			<int key="cost" value="551" />
+		</event>
+		<event>
+			<string key="concept:name" value="Close Order" />
+			<date key="time:timestamp" value="2024-09-17T23:14:18.057649" />
+			<string key="org:resource" value="User B" />
+			<int key="cost" value="852" />
+		</event>
+		<event>
+			<string key="concept:name" value="Approve Order" />
+			<date key="time:timestamp" value="2024-09-21T23:14:18.057649" />
+			<string key="org:resource" value="User B" />
+			<int key="cost" value="976" />
+		</event>
+	</trace>
+	<trace>
+		<string key="case:concept:name" value="Case_21" />
+		<event>
+			<string key="concept:name" value="Ship Order" />
+			<date key="time:timestamp" value="2024-09-05T23:14:18.057649" />
+			<string key="org:resource" value="User A" />
+			<int key="cost" value="202" />
+		</event>
+		<event>
+			<string key="concept:name" value="Close Order" />
+			<date key="time:timestamp" value="2024-09-09T23:14:18.057649" />
+			<string key="org:resource" value="User C" />
+			<int key="cost" value="429" />
+		</event>
+		<event>
+			<string key="concept:name" value="Approve Order" />
+			<date key="time:timestamp" value="2024-09-13T23:14:18.057649" />
+			<string key="org:resource" value="User C" />
+			<int key="cost" value="401" />
+		</event>
+		<event>
+			<string key="concept:name" value="Complete Payment" />
+			<date key="time:timestamp" value="2024-09-16T23:14:18.057649" />
+			<string key="org:resource" value="User B" />
+			<int key="cost" value="205" />
+		</event>
+		<event>
+			<string key="concept:name" value="Ship Order" />
+			<date key="time:timestamp" value="2024-09-19T23:14:18.057649" />
+			<string key="org:resource" value="User B" />
+			<int key="cost" value="851" />
+		</event>
+	</trace>
+	<trace>
+		<string key="case:concept:name" value="Case_22" />
+		<event>
+			<string key="concept:name" value="Create Order" />
+			<date key="time:timestamp" value="2024-09-05T23:14:18.057649" />
+			<string key="org:resource" value="User A" />
+			<int key="cost" value="859" />
+		</event>
+		<event>
+			<string key="concept:name" value="Complete Payment" />
+			<date key="time:timestamp" value="2024-09-10T23:14:18.057649" />
+			<string key="org:resource" value="User C" />
+			<int key="cost" value="831" />
+		</event>
+		<event>
+			<string key="concept:name" value="Approve Order" />
+			<date key="time:timestamp" value="2024-09-11T23:14:18.057649" />
+			<string key="org:resource" value="User B" />
+			<int key="cost" value="415" />
+		</event>
+		<event>
+			<string key="concept:name" value="Ship Order" />
+			<date key="time:timestamp" value="2024-09-13T23:14:18.057649" />
+			<string key="org:resource" value="User C" />
+			<int key="cost" value="384" />
+		</event>
+		<event>
+			<string key="concept:name" value="Ship Order" />
+			<date key="time:timestamp" value="2024-09-15T23:14:18.057649" />
+			<string key="org:resource" value="User A" />
+			<int key="cost" value="825" />
+		</event>
+	</trace>
+	<trace>
+		<string key="case:concept:name" value="Case_23" />
+		<event>
+			<string key="concept:name" value="Close Order" />
+			<date key="time:timestamp" value="2024-09-05T23:14:18.057649" />
+			<string key="org:resource" value="User C" />
+			<int key="cost" value="199" />
+		</event>
+		<event>
+			<string key="concept:name" value="Create Order" />
+			<date key="time:timestamp" value="2024-09-08T23:14:18.057649" />
+			<string key="org:resource" value="User C" />
+			<int key="cost" value="313" />
+		</event>
+		<event>
+			<string key="concept:name" value="Complete Payment" />
+			<date key="time:timestamp" value="2024-09-13T23:14:18.057649" />
+			<string key="org:resource" value="User A" />
+			<int key="cost" value="236" />
+		</event>
+		<event>
+			<string key="concept:name" value="Close Order" />
+			<date key="time:timestamp" value="2024-09-18T23:14:18.057649" />
+			<string key="org:resource" value="User B" />
+			<int key="cost" value="229" />
+		</event>
+		<event>
+			<string key="concept:name" value="Create Order" />
+			<date key="time:timestamp" value="2024-09-20T23:14:18.057649" />
+			<string key="org:resource" value="User A" />
+			<int key="cost" value="929" />
+		</event>
+	</trace>
+	<trace>
+		<string key="case:concept:name" value="Case_24" />
+		<event>
+			<string key="concept:name" value="Close Order" />
+			<date key="time:timestamp" value="2024-09-05T23:14:18.057649" />
+			<string key="org:resource" value="User C" />
+			<int key="cost" value="403" />
+		</event>
+		<event>
+			<string key="concept:name" value="Close Order" />
+			<date key="time:timestamp" value="2024-09-06T23:14:18.057649" />
+			<string key="org:resource" value="User C" />
+			<int key="cost" value="665" />
+		</event>
+		<event>
+			<string key="concept:name" value="Complete Payment" />
+			<date key="time:timestamp" value="2024-09-10T23:14:18.057649" />
+			<string key="org:resource" value="User C" />
+			<int key="cost" value="435" />
+		</event>
+		<event>
+			<string key="concept:name" value="Approve Order" />
+			<date key="time:timestamp" value="2024-09-13T23:14:18.057649" />
+			<string key="org:resource" value="User B" />
+			<int key="cost" value="541" />
+		</event>
+		<event>
+			<string key="concept:name" value="Approve Order" />
+			<date key="time:timestamp" value="2024-09-17T23:14:18.057649" />
+			<string key="org:resource" value="User B" />
+			<int key="cost" value="489" />
+		</event>
+	</trace>
+	<trace>
+		<string key="case:concept:name" value="Case_25" />
+		<event>
+			<string key="concept:name" value="Complete Payment" />
+			<date key="time:timestamp" value="2024-09-05T23:14:18.057649" />
+			<string key="org:resource" value="User C" />
+			<int key="cost" value="982" />
+		</event>
+		<event>
+			<string key="concept:name" value="Approve Order" />
+			<date key="time:timestamp" value="2024-09-08T23:14:18.057649" />
+			<string key="org:resource" value="User C" />
+			<int key="cost" value="868" />
+		</event>
+		<event>
+			<string key="concept:name" value="Approve Order" />
+			<date key="time:timestamp" value="2024-09-13T23:14:18.057649" />
+			<string key="org:resource" value="User C" />
+			<int key="cost" value="665" />
+		</event>
+		<event>
+			<string key="concept:name" value="Ship Order" />
+			<date key="time:timestamp" value="2024-09-15T23:14:18.057649" />
+			<string key="org:resource" value="User B" />
+			<int key="cost" value="738" />
+		</event>
+		<event>
+			<string key="concept:name" value="Close Order" />
+			<date key="time:timestamp" value="2024-09-16T23:14:18.057649" />
+			<string key="org:resource" value="User A" />
+			<int key="cost" value="997" />
+		</event>
+	</trace>
+	<trace>
+		<string key="case:concept:name" value="Case_26" />
+		<event>
+			<string key="concept:name" value="Close Order" />
+			<date key="time:timestamp" value="2024-09-05T23:14:18.057649" />
+			<string key="org:resource" value="User B" />
+			<int key="cost" value="590" />
+		</event>
+		<event>
+			<string key="concept:name" value="Ship Order" />
+			<date key="time:timestamp" value="2024-09-06T23:14:18.057649" />
+			<string key="org:resource" value="User C" />
+			<int key="cost" value="373" />
+		</event>
+		<event>
+			<string key="concept:name" value="Complete Payment" />
+			<date key="time:timestamp" value="2024-09-07T23:14:18.057649" />
+			<string key="org:resource" value="User C" />
+			<int key="cost" value="586" />
+		</event>
+		<event>
+			<string key="concept:name" value="Close Order" />
+			<date key="time:timestamp" value="2024-09-11T23:14:18.057649" />
+			<string key="org:resource" value="User B" />
+			<int key="cost" value="678" />
+		</event>
+		<event>
+			<string key="concept:name" value="Close Order" />
+			<date key="time:timestamp" value="2024-09-12T23:14:18.057649" />
+			<string key="org:resource" value="User A" />
+			<int key="cost" value="496" />
+		</event>
+	</trace>
+	<trace>
+		<string key="case:concept:name" value="Case_27" />
+		<event>
+			<string key="concept:name" value="Approve Order" />
+			<date key="time:timestamp" value="2024-09-05T23:14:18.057649" />
+			<string key="org:resource" value="User C" />
+			<int key="cost" value="218" />
+		</event>
+		<event>
+			<string key="concept:name" value="Close Order" />
+			<date key="time:timestamp" value="2024-09-10T23:14:18.057649" />
+			<string key="org:resource" value="User A" />
+			<int key="cost" value="675" />
+		</event>
+		<event>
+			<string key="concept:name" value="Approve Order" />
+			<date key="time:timestamp" value="2024-09-11T23:14:18.057649" />
+			<string key="org:resource" value="User B" />
+			<int key="cost" value="231" />
+		</event>
+		<event>
+			<string key="concept:name" value="Approve Order" />
+			<date key="time:timestamp" value="2024-09-13T23:14:18.057649" />
+			<string key="org:resource" value="User C" />
+			<int key="cost" value="247" />
+		</event>
+		<event>
+			<string key="concept:name" value="Create Order" />
+			<date key="time:timestamp" value="2024-09-15T23:14:18.057649" />
+			<string key="org:resource" value="User B" />
+			<int key="cost" value="866" />
+		</event>
+	</trace>
+	<trace>
+		<string key="case:concept:name" value="Case_28" />
+		<event>
+			<string key="concept:name" value="Approve Order" />
+			<date key="time:timestamp" value="2024-09-05T23:14:18.057649" />
+			<string key="org:resource" value="User B" />
+			<int key="cost" value="788" />
+		</event>
+		<event>
+			<string key="concept:name" value="Complete Payment" />
+			<date key="time:timestamp" value="2024-09-08T23:14:18.057649" />
+			<string key="org:resource" value="User C" />
+			<int key="cost" value="325" />
+		</event>
+		<event>
+			<string key="concept:name" value="Ship Order" />
+			<date key="time:timestamp" value="2024-09-10T23:14:18.057649" />
+			<string key="org:resource" value="User A" />
+			<int key="cost" value="471" />
+		</event>
+		<event>
+			<string key="concept:name" value="Close Order" />
+			<date key="time:timestamp" value="2024-09-15T23:14:18.057649" />
+			<string key="org:resource" value="User B" />
+			<int key="cost" value="643" />
+		</event>
+		<event>
+			<string key="concept:name" value="Close Order" />
+			<date key="time:timestamp" value="2024-09-18T23:14:18.057649" />
+			<string key="org:resource" value="User C" />
+			<int key="cost" value="792" />
+		</event>
+	</trace>
+	<trace>
+		<string key="case:concept:name" value="Case_29" />
+		<event>
+			<string key="concept:name" value="Ship Order" />
+			<date key="time:timestamp" value="2024-09-05T23:14:18.057649" />
+			<string key="org:resource" value="User B" />
+			<int key="cost" value="533" />
+		</event>
+		<event>
+			<string key="concept:name" value="Ship Order" />
+			<date key="time:timestamp" value="2024-09-06T23:14:18.057649" />
+			<string key="org:resource" value="User B" />
+			<int key="cost" value="833" />
+		</event>
+		<event>
+			<string key="concept:name" value="Approve Order" />
+			<date key="time:timestamp" value="2024-09-08T23:14:18.057649" />
+			<string key="org:resource" value="User A" />
+			<int key="cost" value="150" />
+		</event>
+		<event>
+			<string key="concept:name" value="Close Order" />
+			<date key="time:timestamp" value="2024-09-09T23:14:18.057649" />
+			<string key="org:resource" value="User C" />
+			<int key="cost" value="837" />
+		</event>
+		<event>
+			<string key="concept:name" value="Complete Payment" />
+			<date key="time:timestamp" value="2024-09-10T23:14:18.057649" />
+			<string key="org:resource" value="User B" />
+			<int key="cost" value="526" />
+		</event>
+	</trace>
+	<trace>
+		<string key="case:concept:name" value="Case_30" />
+		<event>
+			<string key="concept:name" value="Close Order" />
+			<date key="time:timestamp" value="2024-09-05T23:14:18.057649" />
+			<string key="org:resource" value="User C" />
+			<int key="cost" value="478" />
+		</event>
+		<event>
+			<string key="concept:name" value="Create Order" />
+			<date key="time:timestamp" value="2024-09-10T23:14:18.057649" />
+			<string key="org:resource" value="User A" />
+			<int key="cost" value="711" />
+		</event>
+		<event>
+			<string key="concept:name" value="Create Order" />
+			<date key="time:timestamp" value="2024-09-14T23:14:18.057649" />
+			<string key="org:resource" value="User C" />
+			<int key="cost" value="398" />
+		</event>
+		<event>
+			<string key="concept:name" value="Create Order" />
+			<date key="time:timestamp" value="2024-09-18T23:14:18.057649" />
+			<string key="org:resource" value="User C" />
+			<int key="cost" value="158" />
+		</event>
+		<event>
+			<string key="concept:name" value="Approve Order" />
+			<date key="time:timestamp" value="2024-09-20T23:14:18.057649" />
+			<string key="org:resource" value="User C" />
+			<int key="cost" value="709" />
+		</event>
+	</trace>
+	<trace>
+		<string key="case:concept:name" value="Case_31" />
+		<event>
+			<string key="concept:name" value="Approve Order" />
+			<date key="time:timestamp" value="2024-09-05T23:14:18.057649" />
+			<string key="org:resource" value="User C" />
+			<int key="cost" value="841" />
+		</event>
+		<event>
+			<string key="concept:name" value="Create Order" />
+			<date key="time:timestamp" value="2024-09-10T23:14:18.057649" />
+			<string key="org:resource" value="User A" />
+			<int key="cost" value="124" />
+		</event>
+		<event>
+			<string key="concept:name" value="Close Order" />
+			<date key="time:timestamp" value="2024-09-14T23:14:18.057649" />
+			<string key="org:resource" value="User A" />
+			<int key="cost" value="657" />
+		</event>
+		<event>
+			<string key="concept:name" value="Close Order" />
+			<date key="time:timestamp" value="2024-09-17T23:14:18.057649" />
+			<string key="org:resource" value="User A" />
+			<int key="cost" value="276" />
+		</event>
+		<event>
+			<string key="concept:name" value="Ship Order" />
+			<date key="time:timestamp" value="2024-09-21T23:14:18.057649" />
+			<string key="org:resource" value="User B" />
+			<int key="cost" value="468" />
+		</event>
+	</trace>
+	<trace>
+		<string key="case:concept:name" value="Case_32" />
+		<event>
+			<string key="concept:name" value="Approve Order" />
+			<date key="time:timestamp" value="2024-09-05T23:14:18.057649" />
+			<string key="org:resource" value="User B" />
+			<int key="cost" value="568" />
+		</event>
+		<event>
+			<string key="concept:name" value="Complete Payment" />
+			<date key="time:timestamp" value="2024-09-06T23:14:18.057649" />
+			<string key="org:resource" value="User C" />
+			<int key="cost" value="738" />
+		</event>
+		<event>
+			<string key="concept:name" value="Create Order" />
+			<date key="time:timestamp" value="2024-09-08T23:14:18.057649" />
+			<string key="org:resource" value="User C" />
+			<int key="cost" value="955" />
+		</event>
+		<event>
+			<string key="concept:name" value="Complete Payment" />
+			<date key="time:timestamp" value="2024-09-10T23:14:18.057649" />
+			<string key="org:resource" value="User C" />
+			<int key="cost" value="938" />
+		</event>
+		<event>
+			<string key="concept:name" value="Create Order" />
+			<date key="time:timestamp" value="2024-09-11T23:14:18.057649" />
+			<string key="org:resource" value="User B" />
+			<int key="cost" value="339" />
+		</event>
+	</trace>
+	<trace>
+		<string key="case:concept:name" value="Case_33" />
+		<event>
+			<string key="concept:name" value="Create Order" />
+			<date key="time:timestamp" value="2024-09-05T23:14:18.057649" />
+			<string key="org:resource" value="User A" />
+			<int key="cost" value="611" />
+		</event>
+		<event>
+			<string key="concept:name" value="Complete Payment" />
+			<date key="time:timestamp" value="2024-09-06T23:14:18.057649" />
+			<string key="org:resource" value="User B" />
+			<int key="cost" value="952" />
+		</event>
+		<event>
+			<string key="concept:name" value="Close Order" />
+			<date key="time:timestamp" value="2024-09-11T23:14:18.057649" />
+			<string key="org:resource" value="User A" />
+			<int key="cost" value="464" />
+		</event>
+		<event>
+			<string key="concept:name" value="Complete Payment" />
+			<date key="time:timestamp" value="2024-09-12T23:14:18.057649" />
+			<string key="org:resource" value="User C" />
+			<int key="cost" value="890" />
+		</event>
+		<event>
+			<string key="concept:name" value="Create Order" />
+			<date key="time:timestamp" value="2024-09-13T23:14:18.057649" />
+			<string key="org:resource" value="User A" />
+			<int key="cost" value="405" />
+		</event>
+	</trace>
+	<trace>
+		<string key="case:concept:name" value="Case_34" />
+		<event>
+			<string key="concept:name" value="Close Order" />
+			<date key="time:timestamp" value="2024-09-05T23:14:18.057649" />
+			<string key="org:resource" value="User A" />
+			<int key="cost" value="244" />
+		</event>
+		<event>
+			<string key="concept:name" value="Close Order" />
+			<date key="time:timestamp" value="2024-09-09T23:14:18.057649" />
+			<string key="org:resource" value="User B" />
+			<int key="cost" value="843" />
+		</event>
+		<event>
+			<string key="concept:name" value="Close Order" />
+			<date key="time:timestamp" value="2024-09-11T23:14:18.057649" />
+			<string key="org:resource" value="User B" />
+			<int key="cost" value="447" />
+		</event>
+		<event>
+			<string key="concept:name" value="Ship Order" />
+			<date key="time:timestamp" value="2024-09-15T23:14:18.057649" />
+			<string key="org:resource" value="User B" />
+			<int key="cost" value="431" />
+		</event>
+		<event>
+			<string key="concept:name" value="Complete Payment" />
+			<date key="time:timestamp" value="2024-09-16T23:14:18.057649" />
+			<string key="org:resource" value="User B" />
+			<int key="cost" value="429" />
+		</event>
+	</trace>
+	<trace>
+		<string key="case:concept:name" value="Case_35" />
+		<event>
+			<string key="concept:name" value="Approve Order" />
+			<date key="time:timestamp" value="2024-09-05T23:14:18.057649" />
+			<string key="org:resource" value="User C" />
+			<int key="cost" value="893" />
+		</event>
+		<event>
+			<string key="concept:name" value="Ship Order" />
+			<date key="time:timestamp" value="2024-09-07T23:14:18.057649" />
+			<string key="org:resource" value="User A" />
+			<int key="cost" value="747" />
+		</event>
+		<event>
+			<string key="concept:name" value="Create Order" />
+			<date key="time:timestamp" value="2024-09-10T23:14:18.057649" />
+			<string key="org:resource" value="User A" />
+			<int key="cost" value="172" />
+		</event>
+		<event>
+			<string key="concept:name" value="Close Order" />
+			<date key="time:timestamp" value="2024-09-15T23:14:18.057649" />
+			<string key="org:resource" value="User A" />
+			<int key="cost" value="674" />
+		</event>
+		<event>
+			<string key="concept:name" value="Complete Payment" />
+			<date key="time:timestamp" value="2024-09-19T23:14:18.057649" />
+			<string key="org:resource" value="User C" />
+			<int key="cost" value="688" />
+		</event>
+	</trace>
+	<trace>
+		<string key="case:concept:name" value="Case_36" />
+		<event>
+			<string key="concept:name" value="Ship Order" />
+			<date key="time:timestamp" value="2024-09-05T23:14:18.057649" />
+			<string key="org:resource" value="User B" />
+			<int key="cost" value="298" />
+		</event>
+		<event>
+			<string key="concept:name" value="Complete Payment" />
+			<date key="time:timestamp" value="2024-09-09T23:14:18.057649" />
+			<string key="org:resource" value="User C" />
+			<int key="cost" value="145" />
+		</event>
+		<event>
+			<string key="concept:name" value="Create Order" />
+			<date key="time:timestamp" value="2024-09-11T23:14:18.057649" />
+			<string key="org:resource" value="User C" />
+			<int key="cost" value="315" />
+		</event>
+		<event>
+			<string key="concept:name" value="Close Order" />
+			<date key="time:timestamp" value="2024-09-15T23:14:18.057649" />
+			<string key="org:resource" value="User A" />
+			<int key="cost" value="708" />
+		</event>
+		<event>
+			<string key="concept:name" value="Create Order" />
+			<date key="time:timestamp" value="2024-09-17T23:14:18.057649" />
+			<string key="org:resource" value="User A" />
+			<int key="cost" value="895" />
+		</event>
+	</trace>
+	<trace>
+		<string key="case:concept:name" value="Case_37" />
+		<event>
+			<string key="concept:name" value="Approve Order" />
+			<date key="time:timestamp" value="2024-09-05T23:14:18.057649" />
+			<string key="org:resource" value="User B" />
+			<int key="cost" value="599" />
+		</event>
+		<event>
+			<string key="concept:name" value="Approve Order" />
+			<date key="time:timestamp" value="2024-09-06T23:14:18.057649" />
+			<string key="org:resource" value="User B" />
+			<int key="cost" value="620" />
+		</event>
+		<event>
+			<string key="concept:name" value="Create Order" />
+			<date key="time:timestamp" value="2024-09-07T23:14:18.057649" />
+			<string key="org:resource" value="User C" />
+			<int key="cost" value="306" />
+		</event>
+		<event>
+			<string key="concept:name" value="Complete Payment" />
+			<date key="time:timestamp" value="2024-09-09T23:14:18.057649" />
+			<string key="org:resource" value="User B" />
+			<int key="cost" value="697" />
+		</event>
+		<event>
+			<string key="concept:name" value="Complete Payment" />
+			<date key="time:timestamp" value="2024-09-13T23:14:18.057649" />
+			<string key="org:resource" value="User B" />
+			<int key="cost" value="110" />
+		</event>
+	</trace>
+	<trace>
+		<string key="case:concept:name" value="Case_38" />
+		<event>
+			<string key="concept:name" value="Ship Order" />
+			<date key="time:timestamp" value="2024-09-05T23:14:18.057649" />
+			<string key="org:resource" value="User B" />
+			<int key="cost" value="121" />
+		</event>
+		<event>
+			<string key="concept:name" value="Complete Payment" />
+			<date key="time:timestamp" value="2024-09-09T23:14:18.057649" />
+			<string key="org:resource" value="User A" />
+			<int key="cost" value="731" />
+		</event>
+		<event>
+			<string key="concept:name" value="Complete Payment" />
+			<date key="time:timestamp" value="2024-09-10T23:14:18.057649" />
+			<string key="org:resource" value="User A" />
+			<int key="cost" value="913" />
+		</event>
+		<event>
+			<string key="concept:name" value="Ship Order" />
+			<date key="time:timestamp" value="2024-09-15T23:14:18.057649" />
+			<string key="org:resource" value="User C" />
+			<int key="cost" value="471" />
+		</event>
+		<event>
+			<string key="concept:name" value="Approve Order" />
+			<date key="time:timestamp" value="2024-09-20T23:14:18.057649" />
+			<string key="org:resource" value="User A" />
+			<int key="cost" value="419" />
+		</event>
+	</trace>
+	<trace>
+		<string key="case:concept:name" value="Case_39" />
+		<event>
+			<string key="concept:name" value="Close Order" />
+			<date key="time:timestamp" value="2024-09-05T23:14:18.057649" />
+			<string key="org:resource" value="User B" />
+			<int key="cost" value="971" />
+		</event>
+		<event>
+			<string key="concept:name" value="Close Order" />
+			<date key="time:timestamp" value="2024-09-07T23:14:18.057649" />
+			<string key="org:resource" value="User A" />
+			<int key="cost" value="456" />
+		</event>
+		<event>
+			<string key="concept:name" value="Complete Payment" />
+			<date key="time:timestamp" value="2024-09-10T23:14:18.057649" />
+			<string key="org:resource" value="User A" />
+			<int key="cost" value="728" />
+		</event>
+		<event>
+			<string key="concept:name" value="Approve Order" />
+			<date key="time:timestamp" value="2024-09-15T23:14:18.057649" />
+			<string key="org:resource" value="User C" />
+			<int key="cost" value="685" />
+		</event>
+		<event>
+			<string key="concept:name" value="Complete Payment" />
+			<date key="time:timestamp" value="2024-09-16T23:14:18.057649" />
+			<string key="org:resource" value="User A" />
+			<int key="cost" value="869" />
+		</event>
+	</trace>
+	<trace>
+		<string key="case:concept:name" value="Case_40" />
+		<event>
+			<string key="concept:name" value="Create Order" />
+			<date key="time:timestamp" value="2024-09-05T23:14:18.057649" />
+			<string key="org:resource" value="User B" />
+			<int key="cost" value="333" />
+		</event>
+		<event>
+			<string key="concept:name" value="Complete Payment" />
+			<date key="time:timestamp" value="2024-09-07T23:14:18.057649" />
+			<string key="org:resource" value="User C" />
+			<int key="cost" value="657" />
+		</event>
+		<event>
+			<string key="concept:name" value="Close Order" />
+			<date key="time:timestamp" value="2024-09-12T23:14:18.057649" />
+			<string key="org:resource" value="User C" />
+			<int key="cost" value="920" />
+		</event>
+		<event>
+			<string key="concept:name" value="Ship Order" />
+			<date key="time:timestamp" value="2024-09-16T23:14:18.057649" />
+			<string key="org:resource" value="User A" />
+			<int key="cost" value="602" />
+		</event>
+		<event>
+			<string key="concept:name" value="Complete Payment" />
+			<date key="time:timestamp" value="2024-09-20T23:14:18.057649" />
+			<string key="org:resource" value="User B" />
+			<int key="cost" value="322" />
+		</event>
+	</trace>
+	<trace>
+		<string key="case:concept:name" value="Case_41" />
+		<event>
+			<string key="concept:name" value="Close Order" />
+			<date key="time:timestamp" value="2024-09-05T23:14:18.057649" />
+			<string key="org:resource" value="User A" />
+			<int key="cost" value="492" />
+		</event>
+		<event>
+			<string key="concept:name" value="Ship Order" />
+			<date key="time:timestamp" value="2024-09-07T23:14:18.057649" />
+			<string key="org:resource" value="User C" />
+			<int key="cost" value="712" />
+		</event>
+		<event>
+			<string key="concept:name" value="Complete Payment" />
+			<date key="time:timestamp" value="2024-09-12T23:14:18.057649" />
+			<string key="org:resource" value="User A" />
+			<int key="cost" value="551" />
+		</event>
+		<event>
+			<string key="concept:name" value="Complete Payment" />
+			<date key="time:timestamp" value="2024-09-17T23:14:18.057649" />
+			<string key="org:resource" value="User B" />
+			<int key="cost" value="916" />
+		</event>
+		<event>
+			<string key="concept:name" value="Create Order" />
+			<date key="time:timestamp" value="2024-09-19T23:14:18.057649" />
+			<string key="org:resource" value="User B" />
+			<int key="cost" value="864" />
+		</event>
+	</trace>
+	<trace>
+		<string key="case:concept:name" value="Case_42" />
+		<event>
+			<string key="concept:name" value="Close Order" />
+			<date key="time:timestamp" value="2024-09-05T23:14:18.057649" />
+			<string key="org:resource" value="User C" />
+			<int key="cost" value="550" />
+		</event>
+		<event>
+			<string key="concept:name" value="Ship Order" />
+			<date key="time:timestamp" value="2024-09-09T23:14:18.057649" />
+			<string key="org:resource" value="User C" />
+			<int key="cost" value="804" />
+		</event>
+		<event>
+			<string key="concept:name" value="Close Order" />
+			<date key="time:timestamp" value="2024-09-11T23:14:18.057649" />
+			<string key="org:resource" value="User B" />
+			<int key="cost" value="580" />
+		</event>
+		<event>
+			<string key="concept:name" value="Ship Order" />
+			<date key="time:timestamp" value="2024-09-16T23:14:18.057649" />
+			<string key="org:resource" value="User B" />
+			<int key="cost" value="510" />
+		</event>
+		<event>
+			<string key="concept:name" value="Close Order" />
+			<date key="time:timestamp" value="2024-09-17T23:14:18.057649" />
+			<string key="org:resource" value="User C" />
+			<int key="cost" value="261" />
+		</event>
+	</trace>
+	<trace>
+		<string key="case:concept:name" value="Case_43" />
+		<event>
+			<string key="concept:name" value="Create Order" />
+			<date key="time:timestamp" value="2024-09-05T23:14:18.057649" />
+			<string key="org:resource" value="User A" />
+			<int key="cost" value="976" />
+		</event>
+		<event>
+			<string key="concept:name" value="Close Order" />
+			<date key="time:timestamp" value="2024-09-09T23:14:18.057649" />
+			<string key="org:resource" value="User A" />
+			<int key="cost" value="582" />
+		</event>
+		<event>
+			<string key="concept:name" value="Ship Order" />
+			<date key="time:timestamp" value="2024-09-11T23:14:18.057649" />
+			<string key="org:resource" value="User B" />
+			<int key="cost" value="149" />
+		</event>
+		<event>
+			<string key="concept:name" value="Complete Payment" />
+			<date key="time:timestamp" value="2024-09-15T23:14:18.057649" />
+			<string key="org:resource" value="User C" />
+			<int key="cost" value="120" />
+		</event>
+		<event>
+			<string key="concept:name" value="Close Order" />
+			<date key="time:timestamp" value="2024-09-20T23:14:18.057649" />
+			<string key="org:resource" value="User A" />
+			<int key="cost" value="982" />
+		</event>
+	</trace>
+	<trace>
+		<string key="case:concept:name" value="Case_44" />
+		<event>
+			<string key="concept:name" value="Create Order" />
+			<date key="time:timestamp" value="2024-09-05T23:14:18.057649" />
+			<string key="org:resource" value="User A" />
+			<int key="cost" value="755" />
+		</event>
+		<event>
+			<string key="concept:name" value="Approve Order" />
+			<date key="time:timestamp" value="2024-09-10T23:14:18.057649" />
+			<string key="org:resource" value="User C" />
+			<int key="cost" value="202" />
+		</event>
+		<event>
+			<string key="concept:name" value="Close Order" />
+			<date key="time:timestamp" value="2024-09-11T23:14:18.057649" />
+			<string key="org:resource" value="User A" />
+			<int key="cost" value="253" />
+		</event>
+		<event>
+			<string key="concept:name" value="Complete Payment" />
+			<date key="time:timestamp" value="2024-09-15T23:14:18.057649" />
+			<string key="org:resource" value="User B" />
+			<int key="cost" value="754" />
+		</event>
+		<event>
+			<string key="concept:name" value="Create Order" />
+			<date key="time:timestamp" value="2024-09-20T23:14:18.057649" />
+			<string key="org:resource" value="User B" />
+			<int key="cost" value="421" />
+		</event>
+	</trace>
+	<trace>
+		<string key="case:concept:name" value="Case_45" />
+		<event>
+			<string key="concept:name" value="Complete Payment" />
+			<date key="time:timestamp" value="2024-09-05T23:14:18.057649" />
+			<string key="org:resource" value="User B" />
+			<int key="cost" value="666" />
+		</event>
+		<event>
+			<string key="concept:name" value="Create Order" />
+			<date key="time:timestamp" value="2024-09-10T23:14:18.057649" />
+			<string key="org:resource" value="User C" />
+			<int key="cost" value="112" />
+		</event>
+		<event>
+			<string key="concept:name" value="Close Order" />
+			<date key="time:timestamp" value="2024-09-11T23:14:18.057649" />
+			<string key="org:resource" value="User B" />
+			<int key="cost" value="760" />
+		</event>
+		<event>
+			<string key="concept:name" value="Complete Payment" />
+			<date key="time:timestamp" value="2024-09-13T23:14:18.057649" />
+			<string key="org:resource" value="User C" />
+			<int key="cost" value="733" />
+		</event>
+		<event>
+			<string key="concept:name" value="Complete Payment" />
+			<date key="time:timestamp" value="2024-09-18T23:14:18.057649" />
+			<string key="org:resource" value="User A" />
+			<int key="cost" value="205" />
+		</event>
+	</trace>
+	<trace>
+		<string key="case:concept:name" value="Case_46" />
+		<event>
+			<string key="concept:name" value="Complete Payment" />
+			<date key="time:timestamp" value="2024-09-05T23:14:18.057649" />
+			<string key="org:resource" value="User B" />
+			<int key="cost" value="766" />
+		</event>
+		<event>
+			<string key="concept:name" value="Ship Order" />
+			<date key="time:timestamp" value="2024-09-09T23:14:18.057649" />
+			<string key="org:resource" value="User B" />
+			<int key="cost" value="834" />
+		</event>
+		<event>
+			<string key="concept:name" value="Ship Order" />
+			<date key="time:timestamp" value="2024-09-11T23:14:18.057649" />
+			<string key="org:resource" value="User B" />
+			<int key="cost" value="886" />
+		</event>
+		<event>
+			<string key="concept:name" value="Create Order" />
+			<date key="time:timestamp" value="2024-09-12T23:14:18.057649" />
+			<string key="org:resource" value="User C" />
+			<int key="cost" value="830" />
+		</event>
+		<event>
+			<string key="concept:name" value="Complete Payment" />
+			<date key="time:timestamp" value="2024-09-15T23:14:18.057649" />
+			<string key="org:resource" value="User B" />
+			<int key="cost" value="901" />
+		</event>
+	</trace>
+	<trace>
+		<string key="case:concept:name" value="Case_47" />
+		<event>
+			<string key="concept:name" value="Close Order" />
+			<date key="time:timestamp" value="2024-09-05T23:14:18.057649" />
+			<string key="org:resource" value="User B" />
+			<int key="cost" value="517" />
+		</event>
+		<event>
+			<string key="concept:name" value="Ship Order" />
+			<date key="time:timestamp" value="2024-09-09T23:14:18.057649" />
+			<string key="org:resource" value="User C" />
+			<int key="cost" value="503" />
+		</event>
+		<event>
+			<string key="concept:name" value="Create Order" />
+			<date key="time:timestamp" value="2024-09-10T23:14:18.057649" />
+			<string key="org:resource" value="User B" />
+			<int key="cost" value="673" />
+		</event>
+		<event>
+			<string key="concept:name" value="Create Order" />
+			<date key="time:timestamp" value="2024-09-12T23:14:18.057649" />
+			<string key="org:resource" value="User C" />
+			<int key="cost" value="572" />
+		</event>
+		<event>
+			<string key="concept:name" value="Complete Payment" />
+			<date key="time:timestamp" value="2024-09-15T23:14:18.057649" />
+			<string key="org:resource" value="User C" />
+			<int key="cost" value="540" />
+		</event>
+	</trace>
+	<trace>
+		<string key="case:concept:name" value="Case_48" />
+		<event>
+			<string key="concept:name" value="Ship Order" />
+			<date key="time:timestamp" value="2024-09-05T23:14:18.057649" />
+			<string key="org:resource" value="User B" />
+			<int key="cost" value="845" />
+		</event>
+		<event>
+			<string key="concept:name" value="Close Order" />
+			<date key="time:timestamp" value="2024-09-06T23:14:18.057649" />
+			<string key="org:resource" value="User B" />
+			<int key="cost" value="836" />
+		</event>
+		<event>
+			<string key="concept:name" value="Create Order" />
+			<date key="time:timestamp" value="2024-09-09T23:14:18.057649" />
+			<string key="org:resource" value="User A" />
+			<int key="cost" value="821" />
+		</event>
+		<event>
+			<string key="concept:name" value="Create Order" />
+			<date key="time:timestamp" value="2024-09-10T23:14:18.057649" />
+			<string key="org:resource" value="User B" />
+			<int key="cost" value="823" />
+		</event>
+		<event>
+			<string key="concept:name" value="Create Order" />
+			<date key="time:timestamp" value="2024-09-13T23:14:18.057649" />
+			<string key="org:resource" value="User A" />
+			<int key="cost" value="514" />
+		</event>
+	</trace>
+	<trace>
+		<string key="case:concept:name" value="Case_49" />
+		<event>
+			<string key="concept:name" value="Create Order" />
+			<date key="time:timestamp" value="2024-09-05T23:14:18.057649" />
+			<string key="org:resource" value="User A" />
+			<int key="cost" value="974" />
+		</event>
+		<event>
+			<string key="concept:name" value="Create Order" />
+			<date key="time:timestamp" value="2024-09-07T23:14:18.057649" />
+			<string key="org:resource" value="User C" />
+			<int key="cost" value="985" />
+		</event>
+		<event>
+			<string key="concept:name" value="Approve Order" />
+			<date key="time:timestamp" value="2024-09-12T23:14:18.057649" />
+			<string key="org:resource" value="User C" />
+			<int key="cost" value="408" />
+		</event>
+		<event>
+			<string key="concept:name" value="Complete Payment" />
+			<date key="time:timestamp" value="2024-09-17T23:14:18.057649" />
+			<string key="org:resource" value="User A" />
+			<int key="cost" value="271" />
+		</event>
+		<event>
+			<string key="concept:name" value="Complete Payment" />
+			<date key="time:timestamp" value="2024-09-22T23:14:18.057649" />
+			<string key="org:resource" value="User B" />
+			<int key="cost" value="294" />
+		</event>
+	</trace>
+	<trace>
+		<string key="case:concept:name" value="Case_50" />
+		<event>
+			<string key="concept:name" value="Ship Order" />
+			<date key="time:timestamp" value="2024-09-05T23:14:18.057649" />
+			<string key="org:resource" value="User C" />
+			<int key="cost" value="344" />
+		</event>
+		<event>
+			<string key="concept:name" value="Approve Order" />
+			<date key="time:timestamp" value="2024-09-08T23:14:18.057649" />
+			<string key="org:resource" value="User C" />
+			<int key="cost" value="229" />
+		</event>
+		<event>
+			<string key="concept:name" value="Create Order" />
+			<date key="time:timestamp" value="2024-09-10T23:14:18.057649" />
+			<string key="org:resource" value="User A" />
+			<int key="cost" value="765" />
+		</event>
+		<event>
+			<string key="concept:name" value="Approve Order" />
+			<date key="time:timestamp" value="2024-09-15T23:14:18.057649" />
+			<string key="org:resource" value="User B" />
+			<int key="cost" value="167" />
+		</event>
+		<event>
+			<string key="concept:name" value="Complete Payment" />
+			<date key="time:timestamp" value="2024-09-20T23:14:18.057649" />
+			<string key="org:resource" value="User B" />
+			<int key="cost" value="549" />
+		</event>
+	</trace>
+	<trace>
+		<string key="case:concept:name" value="Case_51" />
+		<event>
+			<string key="concept:name" value="Close Order" />
+			<date key="time:timestamp" value="2024-09-05T23:14:18.057649" />
+			<string key="org:resource" value="User A" />
+			<int key="cost" value="346" />
+		</event>
+		<event>
+			<string key="concept:name" value="Create Order" />
+			<date key="time:timestamp" value="2024-09-10T23:14:18.057649" />
+			<string key="org:resource" value="User A" />
+			<int key="cost" value="491" />
+		</event>
+		<event>
+			<string key="concept:name" value="Approve Order" />
+			<date key="time:timestamp" value="2024-09-13T23:14:18.057649" />
+			<string key="org:resource" value="User B" />
+			<int key="cost" value="623" />
+		</event>
+		<event>
+			<string key="concept:name" value="Close Order" />
+			<date key="time:timestamp" value="2024-09-15T23:14:18.057649" />
+			<string key="org:resource" value="User A" />
+			<int key="cost" value="177" />
+		</event>
+		<event>
+			<string key="concept:name" value="Create Order" />
+			<date key="time:timestamp" value="2024-09-20T23:14:18.057649" />
+			<string key="org:resource" value="User B" />
+			<int key="cost" value="632" />
+		</event>
+	</trace>
+	<trace>
+		<string key="case:concept:name" value="Case_52" />
+		<event>
+			<string key="concept:name" value="Ship Order" />
+			<date key="time:timestamp" value="2024-09-05T23:14:18.057649" />
+			<string key="org:resource" value="User A" />
+			<int key="cost" value="970" />
+		</event>
+		<event>
+			<string key="concept:name" value="Ship Order" />
+			<date key="time:timestamp" value="2024-09-07T23:14:18.057649" />
+			<string key="org:resource" value="User C" />
+			<int key="cost" value="308" />
+		</event>
+		<event>
+			<string key="concept:name" value="Close Order" />
+			<date key="time:timestamp" value="2024-09-09T23:14:18.057649" />
+			<string key="org:resource" value="User C" />
+			<int key="cost" value="865" />
+		</event>
+		<event>
+			<string key="concept:name" value="Close Order" />
+			<date key="time:timestamp" value="2024-09-14T23:14:18.057649" />
+			<string key="org:resource" value="User B" />
+			<int key="cost" value="940" />
+		</event>
+		<event>
+			<string key="concept:name" value="Approve Order" />
+			<date key="time:timestamp" value="2024-09-15T23:14:18.057649" />
+			<string key="org:resource" value="User A" />
+			<int key="cost" value="929" />
+		</event>
+	</trace>
+	<trace>
+		<string key="case:concept:name" value="Case_53" />
+		<event>
+			<string key="concept:name" value="Ship Order" />
+			<date key="time:timestamp" value="2024-09-05T23:14:18.057649" />
+			<string key="org:resource" value="User B" />
+			<int key="cost" value="491" />
+		</event>
+		<event>
+			<string key="concept:name" value="Ship Order" />
+			<date key="time:timestamp" value="2024-09-07T23:14:18.057649" />
+			<string key="org:resource" value="User C" />
+			<int key="cost" value="218" />
+		</event>
+		<event>
+			<string key="concept:name" value="Approve Order" />
+			<date key="time:timestamp" value="2024-09-10T23:14:18.057649" />
+			<string key="org:resource" value="User A" />
+			<int key="cost" value="244" />
+		</event>
+		<event>
+			<string key="concept:name" value="Create Order" />
+			<date key="time:timestamp" value="2024-09-13T23:14:18.057649" />
+			<string key="org:resource" value="User A" />
+			<int key="cost" value="251" />
+		</event>
+		<event>
+			<string key="concept:name" value="Complete Payment" />
+			<date key="time:timestamp" value="2024-09-16T23:14:18.057649" />
+			<string key="org:resource" value="User C" />
+			<int key="cost" value="237" />
+		</event>
+	</trace>
+	<trace>
+		<string key="case:concept:name" value="Case_54" />
+		<event>
+			<string key="concept:name" value="Complete Payment" />
+			<date key="time:timestamp" value="2024-09-05T23:14:18.057649" />
+			<string key="org:resource" value="User C" />
+			<int key="cost" value="604" />
+		</event>
+		<event>
+			<string key="concept:name" value="Close Order" />
+			<date key="time:timestamp" value="2024-09-06T23:14:18.057649" />
+			<string key="org:resource" value="User B" />
+			<int key="cost" value="911" />
+		</event>
+		<event>
+			<string key="concept:name" value="Create Order" />
+			<date key="time:timestamp" value="2024-09-10T23:14:18.057649" />
+			<string key="org:resource" value="User B" />
+			<int key="cost" value="913" />
+		</event>
+		<event>
+			<string key="concept:name" value="Close Order" />
+			<date key="time:timestamp" value="2024-09-14T23:14:18.057649" />
+			<string key="org:resource" value="User A" />
+			<int key="cost" value="171" />
+		</event>
+		<event>
+			<string key="concept:name" value="Create Order" />
+			<date key="time:timestamp" value="2024-09-19T23:14:18.057649" />
+			<string key="org:resource" value="User C" />
+			<int key="cost" value="427" />
+		</event>
+	</trace>
+	<trace>
+		<string key="case:concept:name" value="Case_55" />
+		<event>
+			<string key="concept:name" value="Create Order" />
+			<date key="time:timestamp" value="2024-09-05T23:14:18.057649" />
+			<string key="org:resource" value="User B" />
+			<int key="cost" value="307" />
+		</event>
+		<event>
+			<string key="concept:name" value="Close Order" />
+			<date key="time:timestamp" value="2024-09-09T23:14:18.057649" />
+			<string key="org:resource" value="User B" />
+			<int key="cost" value="328" />
+		</event>
+		<event>
+			<string key="concept:name" value="Create Order" />
+			<date key="time:timestamp" value="2024-09-10T23:14:18.057649" />
+			<string key="org:resource" value="User A" />
+			<int key="cost" value="343" />
+		</event>
+		<event>
+			<string key="concept:name" value="Close Order" />
+			<date key="time:timestamp" value="2024-09-14T23:14:18.057649" />
+			<string key="org:resource" value="User C" />
+			<int key="cost" value="257" />
+		</event>
+		<event>
+			<string key="concept:name" value="Ship Order" />
+			<date key="time:timestamp" value="2024-09-19T23:14:18.057649" />
+			<string key="org:resource" value="User B" />
+			<int key="cost" value="100" />
+		</event>
+	</trace>
+	<trace>
+		<string key="case:concept:name" value="Case_56" />
+		<event>
+			<string key="concept:name" value="Close Order" />
+			<date key="time:timestamp" value="2024-09-05T23:14:18.057649" />
+			<string key="org:resource" value="User A" />
+			<int key="cost" value="425" />
+		</event>
+		<event>
+			<string key="concept:name" value="Approve Order" />
+			<date key="time:timestamp" value="2024-09-06T23:14:18.057649" />
+			<string key="org:resource" value="User C" />
+			<int key="cost" value="148" />
+		</event>
+		<event>
+			<string key="concept:name" value="Ship Order" />
+			<date key="time:timestamp" value="2024-09-08T23:14:18.057649" />
+			<string key="org:resource" value="User C" />
+			<int key="cost" value="546" />
+		</event>
+		<event>
+			<string key="concept:name" value="Close Order" />
+			<date key="time:timestamp" value="2024-09-10T23:14:18.057649" />
+			<string key="org:resource" value="User B" />
+			<int key="cost" value="617" />
+		</event>
+		<event>
+			<string key="concept:name" value="Complete Payment" />
+			<date key="time:timestamp" value="2024-09-15T23:14:18.057649" />
+			<string key="org:resource" value="User B" />
+			<int key="cost" value="280" />
+		</event>
+	</trace>
+	<trace>
+		<string key="case:concept:name" value="Case_57" />
+		<event>
+			<string key="concept:name" value="Ship Order" />
+			<date key="time:timestamp" value="2024-09-05T23:14:18.057649" />
+			<string key="org:resource" value="User C" />
+			<int key="cost" value="346" />
+		</event>
+		<event>
+			<string key="concept:name" value="Create Order" />
+			<date key="time:timestamp" value="2024-09-08T23:14:18.057649" />
+			<string key="org:resource" value="User A" />
+			<int key="cost" value="522" />
+		</event>
+		<event>
+			<string key="concept:name" value="Create Order" />
+			<date key="time:timestamp" value="2024-09-09T23:14:18.057649" />
+			<string key="org:resource" value="User A" />
+			<int key="cost" value="659" />
+		</event>
+		<event>
+			<string key="concept:name" value="Create Order" />
+			<date key="time:timestamp" value="2024-09-10T23:14:18.057649" />
+			<string key="org:resource" value="User C" />
+			<int key="cost" value="348" />
+		</event>
+		<event>
+			<string key="concept:name" value="Approve Order" />
+			<date key="time:timestamp" value="2024-09-13T23:14:18.057649" />
+			<string key="org:resource" value="User A" />
+			<int key="cost" value="859" />
+		</event>
+	</trace>
+	<trace>
+		<string key="case:concept:name" value="Case_58" />
+		<event>
+			<string key="concept:name" value="Approve Order" />
+			<date key="time:timestamp" value="2024-09-05T23:14:18.057649" />
+			<string key="org:resource" value="User B" />
+			<int key="cost" value="589" />
+		</event>
+		<event>
+			<string key="concept:name" value="Approve Order" />
+			<date key="time:timestamp" value="2024-09-09T23:14:18.057649" />
+			<string key="org:resource" value="User A" />
+			<int key="cost" value="759" />
+		</event>
+		<event>
+			<string key="concept:name" value="Approve Order" />
+			<date key="time:timestamp" value="2024-09-10T23:14:18.057649" />
+			<string key="org:resource" value="User A" />
+			<int key="cost" value="563" />
+		</event>
+		<event>
+			<string key="concept:name" value="Complete Payment" />
+			<date key="time:timestamp" value="2024-09-15T23:14:18.057649" />
+			<string key="org:resource" value="User A" />
+			<int key="cost" value="230" />
+		</event>
+		<event>
+			<string key="concept:name" value="Ship Order" />
+			<date key="time:timestamp" value="2024-09-20T23:14:18.057649" />
+			<string key="org:resource" value="User A" />
+			<int key="cost" value="961" />
+		</event>
+	</trace>
+	<trace>
+		<string key="case:concept:name" value="Case_59" />
+		<event>
+			<string key="concept:name" value="Close Order" />
+			<date key="time:timestamp" value="2024-09-05T23:14:18.057649" />
+			<string key="org:resource" value="User B" />
+			<int key="cost" value="997" />
+		</event>
+		<event>
+			<string key="concept:name" value="Create Order" />
+			<date key="time:timestamp" value="2024-09-08T23:14:18.057649" />
+			<string key="org:resource" value="User C" />
+			<int key="cost" value="211" />
+		</event>
+		<event>
+			<string key="concept:name" value="Approve Order" />
+			<date key="time:timestamp" value="2024-09-12T23:14:18.057649" />
+			<string key="org:resource" value="User A" />
+			<int key="cost" value="632" />
+		</event>
+		<event>
+			<string key="concept:name" value="Create Order" />
+			<date key="time:timestamp" value="2024-09-14T23:14:18.057649" />
+			<string key="org:resource" value="User B" />
+			<int key="cost" value="438" />
+		</event>
+		<event>
+			<string key="concept:name" value="Create Order" />
+			<date key="time:timestamp" value="2024-09-19T23:14:18.057649" />
+			<string key="org:resource" value="User A" />
+			<int key="cost" value="473" />
+		</event>
+	</trace>
+	<trace>
+		<string key="case:concept:name" value="Case_60" />
+		<event>
+			<string key="concept:name" value="Approve Order" />
+			<date key="time:timestamp" value="2024-09-05T23:14:18.057649" />
+			<string key="org:resource" value="User C" />
+			<int key="cost" value="303" />
+		</event>
+		<event>
+			<string key="concept:name" value="Close Order" />
+			<date key="time:timestamp" value="2024-09-06T23:14:18.057649" />
+			<string key="org:resource" value="User C" />
+			<int key="cost" value="372" />
+		</event>
+		<event>
+			<string key="concept:name" value="Close Order" />
+			<date key="time:timestamp" value="2024-09-11T23:14:18.057649" />
+			<string key="org:resource" value="User C" />
+			<int key="cost" value="190" />
+		</event>
+		<event>
+			<string key="concept:name" value="Create Order" />
+			<date key="time:timestamp" value="2024-09-14T23:14:18.057649" />
+			<string key="org:resource" value="User C" />
+			<int key="cost" value="938" />
+		</event>
+		<event>
+			<string key="concept:name" value="Approve Order" />
+			<date key="time:timestamp" value="2024-09-19T23:14:18.057649" />
+			<string key="org:resource" value="User B" />
+			<int key="cost" value="571" />
+		</event>
+	</trace>
+	<trace>
+		<string key="case:concept:name" value="Case_61" />
+		<event>
+			<string key="concept:name" value="Ship Order" />
+			<date key="time:timestamp" value="2024-09-05T23:14:18.057649" />
+			<string key="org:resource" value="User C" />
+			<int key="cost" value="331" />
+		</event>
+		<event>
+			<string key="concept:name" value="Create Order" />
+			<date key="time:timestamp" value="2024-09-08T23:14:18.057649" />
+			<string key="org:resource" value="User C" />
+			<int key="cost" value="356" />
+		</event>
+		<event>
+			<string key="concept:name" value="Create Order" />
+			<date key="time:timestamp" value="2024-09-13T23:14:18.057649" />
+			<string key="org:resource" value="User C" />
+			<int key="cost" value="404" />
+		</event>
+		<event>
+			<string key="concept:name" value="Ship Order" />
+			<date key="time:timestamp" value="2024-09-18T23:14:18.057649" />
+			<string key="org:resource" value="User C" />
+			<int key="cost" value="904" />
+		</event>
+		<event>
+			<string key="concept:name" value="Approve Order" />
+			<date key="time:timestamp" value="2024-09-23T23:14:18.057649" />
+			<string key="org:resource" value="User A" />
+			<int key="cost" value="596" />
+		</event>
+	</trace>
+	<trace>
+		<string key="case:concept:name" value="Case_62" />
+		<event>
+			<string key="concept:name" value="Ship Order" />
+			<date key="time:timestamp" value="2024-09-05T23:14:18.057649" />
+			<string key="org:resource" value="User A" />
+			<int key="cost" value="754" />
+		</event>
+		<event>
+			<string key="concept:name" value="Complete Payment" />
+			<date key="time:timestamp" value="2024-09-09T23:14:18.057649" />
+			<string key="org:resource" value="User C" />
+			<int key="cost" value="598" />
+		</event>
+		<event>
+			<string key="concept:name" value="Complete Payment" />
+			<date key="time:timestamp" value="2024-09-11T23:14:18.057649" />
+			<string key="org:resource" value="User A" />
+			<int key="cost" value="725" />
+		</event>
+		<event>
+			<string key="concept:name" value="Close Order" />
+			<date key="time:timestamp" value="2024-09-13T23:14:18.057649" />
+			<string key="org:resource" value="User C" />
+			<int key="cost" value="898" />
+		</event>
+		<event>
+			<string key="concept:name" value="Create Order" />
+			<date key="time:timestamp" value="2024-09-16T23:14:18.057649" />
+			<string key="org:resource" value="User C" />
+			<int key="cost" value="446" />
+		</event>
+	</trace>
+	<trace>
+		<string key="case:concept:name" value="Case_63" />
+		<event>
+			<string key="concept:name" value="Close Order" />
+			<date key="time:timestamp" value="2024-09-05T23:14:18.057649" />
+			<string key="org:resource" value="User B" />
+			<int key="cost" value="290" />
+		</event>
+		<event>
+			<string key="concept:name" value="Create Order" />
+			<date key="time:timestamp" value="2024-09-10T23:14:18.057649" />
+			<string key="org:resource" value="User A" />
+			<int key="cost" value="316" />
+		</event>
+		<event>
+			<string key="concept:name" value="Complete Payment" />
+			<date key="time:timestamp" value="2024-09-15T23:14:18.057649" />
+			<string key="org:resource" value="User C" />
+			<int key="cost" value="887" />
+		</event>
+		<event>
+			<string key="concept:name" value="Approve Order" />
+			<date key="time:timestamp" value="2024-09-19T23:14:18.057649" />
+			<string key="org:resource" value="User B" />
+			<int key="cost" value="961" />
+		</event>
+		<event>
+			<string key="concept:name" value="Create Order" />
+			<date key="time:timestamp" value="2024-09-24T23:14:18.057649" />
+			<string key="org:resource" value="User B" />
+			<int key="cost" value="151" />
+		</event>
+	</trace>
+	<trace>
+		<string key="case:concept:name" value="Case_64" />
+		<event>
+			<string key="concept:name" value="Approve Order" />
+			<date key="time:timestamp" value="2024-09-05T23:14:18.057649" />
+			<string key="org:resource" value="User A" />
+			<int key="cost" value="192" />
+		</event>
+		<event>
+			<string key="concept:name" value="Close Order" />
+			<date key="time:timestamp" value="2024-09-10T23:14:18.057649" />
+			<string key="org:resource" value="User A" />
+			<int key="cost" value="566" />
+		</event>
+		<event>
+			<string key="concept:name" value="Approve Order" />
+			<date key="time:timestamp" value="2024-09-11T23:14:18.057649" />
+			<string key="org:resource" value="User B" />
+			<int key="cost" value="707" />
+		</event>
+		<event>
+			<string key="concept:name" value="Ship Order" />
+			<date key="time:timestamp" value="2024-09-12T23:14:18.057649" />
+			<string key="org:resource" value="User B" />
+			<int key="cost" value="556" />
+		</event>
+		<event>
+			<string key="concept:name" value="Close Order" />
+			<date key="time:timestamp" value="2024-09-16T23:14:18.057649" />
+			<string key="org:resource" value="User A" />
+			<int key="cost" value="765" />
+		</event>
+	</trace>
+	<trace>
+		<string key="case:concept:name" value="Case_65" />
+		<event>
+			<string key="concept:name" value="Approve Order" />
+			<date key="time:timestamp" value="2024-09-05T23:14:18.057649" />
+			<string key="org:resource" value="User C" />
+			<int key="cost" value="724" />
+		</event>
+		<event>
+			<string key="concept:name" value="Ship Order" />
+			<date key="time:timestamp" value="2024-09-08T23:14:18.057649" />
+			<string key="org:resource" value="User A" />
+			<int key="cost" value="425" />
+		</event>
+		<event>
+			<string key="concept:name" value="Close Order" />
+			<date key="time:timestamp" value="2024-09-11T23:14:18.057649" />
+			<string key="org:resource" value="User A" />
+			<int key="cost" value="258" />
+		</event>
+		<event>
+			<string key="concept:name" value="Approve Order" />
+			<date key="time:timestamp" value="2024-09-13T23:14:18.057649" />
+			<string key="org:resource" value="User A" />
+			<int key="cost" value="454" />
+		</event>
+		<event>
+			<string key="concept:name" value="Complete Payment" />
+			<date key="time:timestamp" value="2024-09-17T23:14:18.057649" />
+			<string key="org:resource" value="User B" />
+			<int key="cost" value="778" />
+		</event>
+	</trace>
+	<trace>
+		<string key="case:concept:name" value="Case_66" />
+		<event>
+			<string key="concept:name" value="Ship Order" />
+			<date key="time:timestamp" value="2024-09-05T23:14:18.057649" />
+			<string key="org:resource" value="User C" />
+			<int key="cost" value="293" />
+		</event>
+		<event>
+			<string key="concept:name" value="Ship Order" />
+			<date key="time:timestamp" value="2024-09-06T23:14:18.057649" />
+			<string key="org:resource" value="User B" />
+			<int key="cost" value="419" />
+		</event>
+		<event>
+			<string key="concept:name" value="Ship Order" />
+			<date key="time:timestamp" value="2024-09-08T23:14:18.057649" />
+			<string key="org:resource" value="User A" />
+			<int key="cost" value="813" />
+		</event>
+		<event>
+			<string key="concept:name" value="Approve Order" />
+			<date key="time:timestamp" value="2024-09-10T23:14:18.057649" />
+			<string key="org:resource" value="User A" />
+			<int key="cost" value="689" />
+		</event>
+		<event>
+			<string key="concept:name" value="Create Order" />
+			<date key="time:timestamp" value="2024-09-11T23:14:18.057649" />
+			<string key="org:resource" value="User C" />
+			<int key="cost" value="191" />
+		</event>
+	</trace>
+	<trace>
+		<string key="case:concept:name" value="Case_67" />
+		<event>
+			<string key="concept:name" value="Create Order" />
+			<date key="time:timestamp" value="2024-09-05T23:14:18.057649" />
+			<string key="org:resource" value="User A" />
+			<int key="cost" value="402" />
+		</event>
+		<event>
+			<string key="concept:name" value="Approve Order" />
+			<date key="time:timestamp" value="2024-09-07T23:14:18.057649" />
+			<string key="org:resource" value="User C" />
+			<int key="cost" value="432" />
+		</event>
+		<event>
+			<string key="concept:name" value="Complete Payment" />
+			<date key="time:timestamp" value="2024-09-11T23:14:18.057649" />
+			<string key="org:resource" value="User B" />
+			<int key="cost" value="994" />
+		</event>
+		<event>
+			<string key="concept:name" value="Close Order" />
+			<date key="time:timestamp" value="2024-09-12T23:14:18.057649" />
+			<string key="org:resource" value="User A" />
+			<int key="cost" value="868" />
+		</event>
+		<event>
+			<string key="concept:name" value="Create Order" />
+			<date key="time:timestamp" value="2024-09-16T23:14:18.057649" />
+			<string key="org:resource" value="User A" />
+			<int key="cost" value="941" />
+		</event>
+	</trace>
+	<trace>
+		<string key="case:concept:name" value="Case_68" />
+		<event>
+			<string key="concept:name" value="Ship Order" />
+			<date key="time:timestamp" value="2024-09-05T23:14:18.057649" />
+			<string key="org:resource" value="User B" />
+			<int key="cost" value="920" />
+		</event>
+		<event>
+			<string key="concept:name" value="Approve Order" />
+			<date key="time:timestamp" value="2024-09-09T23:14:18.057649" />
+			<string key="org:resource" value="User B" />
+			<int key="cost" value="178" />
+		</event>
+		<event>
+			<string key="concept:name" value="Close Order" />
+			<date key="time:timestamp" value="2024-09-11T23:14:18.057649" />
+			<string key="org:resource" value="User C" />
+			<int key="cost" value="883" />
+		</event>
+		<event>
+			<string key="concept:name" value="Create Order" />
+			<date key="time:timestamp" value="2024-09-14T23:14:18.057649" />
+			<string key="org:resource" value="User A" />
+			<int key="cost" value="866" />
+		</event>
+		<event>
+			<string key="concept:name" value="Create Order" />
+			<date key="time:timestamp" value="2024-09-16T23:14:18.057649" />
+			<string key="org:resource" value="User C" />
+			<int key="cost" value="250" />
+		</event>
+	</trace>
+	<trace>
+		<string key="case:concept:name" value="Case_69" />
+		<event>
+			<string key="concept:name" value="Close Order" />
+			<date key="time:timestamp" value="2024-09-05T23:14:18.057649" />
+			<string key="org:resource" value="User B" />
+			<int key="cost" value="357" />
+		</event>
+		<event>
+			<string key="concept:name" value="Create Order" />
+			<date key="time:timestamp" value="2024-09-09T23:14:18.057649" />
+			<string key="org:resource" value="User A" />
+			<int key="cost" value="568" />
+		</event>
+		<event>
+			<string key="concept:name" value="Approve Order" />
+			<date key="time:timestamp" value="2024-09-11T23:14:18.057649" />
+			<string key="org:resource" value="User B" />
+			<int key="cost" value="940" />
+		</event>
+		<event>
+			<string key="concept:name" value="Create Order" />
+			<date key="time:timestamp" value="2024-09-14T23:14:18.057649" />
+			<string key="org:resource" value="User B" />
+			<int key="cost" value="948" />
+		</event>
+		<event>
+			<string key="concept:name" value="Create Order" />
+			<date key="time:timestamp" value="2024-09-18T23:14:18.057649" />
+			<string key="org:resource" value="User A" />
+			<int key="cost" value="712" />
+		</event>
+	</trace>
+	<trace>
+		<string key="case:concept:name" value="Case_70" />
+		<event>
+			<string key="concept:name" value="Create Order" />
+			<date key="time:timestamp" value="2024-09-05T23:14:18.057649" />
+			<string key="org:resource" value="User A" />
+			<int key="cost" value="555" />
+		</event>
+		<event>
+			<string key="concept:name" value="Close Order" />
+			<date key="time:timestamp" value="2024-09-06T23:14:18.057649" />
+			<string key="org:resource" value="User A" />
+			<int key="cost" value="202" />
+		</event>
+		<event>
+			<string key="concept:name" value="Approve Order" />
+			<date key="time:timestamp" value="2024-09-08T23:14:18.057649" />
+			<string key="org:resource" value="User B" />
+			<int key="cost" value="125" />
+		</event>
+		<event>
+			<string key="concept:name" value="Close Order" />
+			<date key="time:timestamp" value="2024-09-12T23:14:18.057649" />
+			<string key="org:resource" value="User A" />
+			<int key="cost" value="134" />
+		</event>
+		<event>
+			<string key="concept:name" value="Ship Order" />
+			<date key="time:timestamp" value="2024-09-14T23:14:18.057649" />
+			<string key="org:resource" value="User C" />
+			<int key="cost" value="734" />
+		</event>
+	</trace>
+	<trace>
+		<string key="case:concept:name" value="Case_71" />
+		<event>
+			<string key="concept:name" value="Complete Payment" />
+			<date key="time:timestamp" value="2024-09-05T23:14:18.057649" />
+			<string key="org:resource" value="User C" />
+			<int key="cost" value="227" />
+		</event>
+		<event>
+			<string key="concept:name" value="Approve Order" />
+			<date key="time:timestamp" value="2024-09-07T23:14:18.057649" />
+			<string key="org:resource" value="User A" />
+			<int key="cost" value="737" />
+		</event>
+		<event>
+			<string key="concept:name" value="Approve Order" />
+			<date key="time:timestamp" value="2024-09-09T23:14:18.057649" />
+			<string key="org:resource" value="User A" />
+			<int key="cost" value="343" />
+		</event>
+		<event>
+			<string key="concept:name" value="Approve Order" />
+			<date key="time:timestamp" value="2024-09-12T23:14:18.057649" />
+			<string key="org:resource" value="User A" />
+			<int key="cost" value="889" />
+		</event>
+		<event>
+			<string key="concept:name" value="Approve Order" />
+			<date key="time:timestamp" value="2024-09-14T23:14:18.057649" />
+			<string key="org:resource" value="User C" />
+			<int key="cost" value="468" />
+		</event>
+	</trace>
+	<trace>
+		<string key="case:concept:name" value="Case_72" />
+		<event>
+			<string key="concept:name" value="Create Order" />
+			<date key="time:timestamp" value="2024-09-05T23:14:18.057649" />
+			<string key="org:resource" value="User C" />
+			<int key="cost" value="574" />
+		</event>
+		<event>
+			<string key="concept:name" value="Close Order" />
+			<date key="time:timestamp" value="2024-09-08T23:14:18.057649" />
+			<string key="org:resource" value="User C" />
+			<int key="cost" value="884" />
+		</event>
+		<event>
+			<string key="concept:name" value="Ship Order" />
+			<date key="time:timestamp" value="2024-09-10T23:14:18.057649" />
+			<string key="org:resource" value="User A" />
+			<int key="cost" value="403" />
+		</event>
+		<event>
+			<string key="concept:name" value="Ship Order" />
+			<date key="time:timestamp" value="2024-09-14T23:14:18.057649" />
+			<string key="org:resource" value="User C" />
+			<int key="cost" value="481" />
+		</event>
+		<event>
+			<string key="concept:name" value="Create Order" />
+			<date key="time:timestamp" value="2024-09-19T23:14:18.057649" />
+			<string key="org:resource" value="User A" />
+			<int key="cost" value="716" />
+		</event>
+	</trace>
+	<trace>
+		<string key="case:concept:name" value="Case_73" />
+		<event>
+			<string key="concept:name" value="Close Order" />
+			<date key="time:timestamp" value="2024-09-05T23:14:18.057649" />
+			<string key="org:resource" value="User A" />
+			<int key="cost" value="676" />
+		</event>
+		<event>
+			<string key="concept:name" value="Ship Order" />
+			<date key="time:timestamp" value="2024-09-08T23:14:18.057649" />
+			<string key="org:resource" value="User C" />
+			<int key="cost" value="269" />
+		</event>
+		<event>
+			<string key="concept:name" value="Close Order" />
+			<date key="time:timestamp" value="2024-09-12T23:14:18.057649" />
+			<string key="org:resource" value="User C" />
+			<int key="cost" value="430" />
+		</event>
+		<event>
+			<string key="concept:name" value="Complete Payment" />
+			<date key="time:timestamp" value="2024-09-13T23:14:18.057649" />
+			<string key="org:resource" value="User C" />
+			<int key="cost" value="923" />
+		</event>
+		<event>
+			<string key="concept:name" value="Close Order" />
+			<date key="time:timestamp" value="2024-09-16T23:14:18.057649" />
+			<string key="org:resource" value="User B" />
+			<int key="cost" value="628" />
+		</event>
+	</trace>
+	<trace>
+		<string key="case:concept:name" value="Case_74" />
+		<event>
+			<string key="concept:name" value="Close Order" />
+			<date key="time:timestamp" value="2024-09-05T23:14:18.057649" />
+			<string key="org:resource" value="User C" />
+			<int key="cost" value="630" />
+		</event>
+		<event>
+			<string key="concept:name" value="Close Order" />
+			<date key="time:timestamp" value="2024-09-06T23:14:18.057649" />
+			<string key="org:resource" value="User A" />
+			<int key="cost" value="106" />
+		</event>
+		<event>
+			<string key="concept:name" value="Close Order" />
+			<date key="time:timestamp" value="2024-09-10T23:14:18.057649" />
+			<string key="org:resource" value="User A" />
+			<int key="cost" value="154" />
+		</event>
+		<event>
+			<string key="concept:name" value="Ship Order" />
+			<date key="time:timestamp" value="2024-09-13T23:14:18.057649" />
+			<string key="org:resource" value="User A" />
+			<int key="cost" value="318" />
+		</event>
+		<event>
+			<string key="concept:name" value="Approve Order" />
+			<date key="time:timestamp" value="2024-09-14T23:14:18.057649" />
+			<string key="org:resource" value="User B" />
+			<int key="cost" value="845" />
+		</event>
+	</trace>
+	<trace>
+		<string key="case:concept:name" value="Case_75" />
+		<event>
+			<string key="concept:name" value="Approve Order" />
+			<date key="time:timestamp" value="2024-09-05T23:14:18.057649" />
+			<string key="org:resource" value="User A" />
+			<int key="cost" value="299" />
+		</event>
+		<event>
+			<string key="concept:name" value="Ship Order" />
+			<date key="time:timestamp" value="2024-09-07T23:14:18.057649" />
+			<string key="org:resource" value="User A" />
+			<int key="cost" value="387" />
+		</event>
+		<event>
+			<string key="concept:name" value="Approve Order" />
+			<date key="time:timestamp" value="2024-09-11T23:14:18.057649" />
+			<string key="org:resource" value="User A" />
+			<int key="cost" value="399" />
+		</event>
+		<event>
+			<string key="concept:name" value="Close Order" />
+			<date key="time:timestamp" value="2024-09-15T23:14:18.057649" />
+			<string key="org:resource" value="User A" />
+			<int key="cost" value="369" />
+		</event>
+		<event>
+			<string key="concept:name" value="Approve Order" />
+			<date key="time:timestamp" value="2024-09-18T23:14:18.057649" />
+			<string key="org:resource" value="User B" />
+			<int key="cost" value="444" />
+		</event>
+	</trace>
+	<trace>
+		<string key="case:concept:name" value="Case_76" />
+		<event>
+			<string key="concept:name" value="Approve Order" />
+			<date key="time:timestamp" value="2024-09-05T23:14:18.057649" />
+			<string key="org:resource" value="User C" />
+			<int key="cost" value="991" />
+		</event>
+		<event>
+			<string key="concept:name" value="Approve Order" />
+			<date key="time:timestamp" value="2024-09-07T23:14:18.057649" />
+			<string key="org:resource" value="User A" />
+			<int key="cost" value="378" />
+		</event>
+		<event>
+			<string key="concept:name" value="Close Order" />
+			<date key="time:timestamp" value="2024-09-11T23:14:18.057649" />
+			<string key="org:resource" value="User B" />
+			<int key="cost" value="200" />
+		</event>
+		<event>
+			<string key="concept:name" value="Create Order" />
+			<date key="time:timestamp" value="2024-09-14T23:14:18.057649" />
+			<string key="org:resource" value="User C" />
+			<int key="cost" value="345" />
+		</event>
+		<event>
+			<string key="concept:name" value="Create Order" />
+			<date key="time:timestamp" value="2024-09-15T23:14:18.057649" />
+			<string key="org:resource" value="User B" />
+			<int key="cost" value="675" />
+		</event>
+	</trace>
+	<trace>
+		<string key="case:concept:name" value="Case_77" />
+		<event>
+			<string key="concept:name" value="Create Order" />
+			<date key="time:timestamp" value="2024-09-05T23:14:18.057649" />
+			<string key="org:resource" value="User C" />
+			<int key="cost" value="122" />
+		</event>
+		<event>
+			<string key="concept:name" value="Close Order" />
+			<date key="time:timestamp" value="2024-09-10T23:14:18.057649" />
+			<string key="org:resource" value="User A" />
+			<int key="cost" value="500" />
+		</event>
+		<event>
+			<string key="concept:name" value="Create Order" />
+			<date key="time:timestamp" value="2024-09-15T23:14:18.057649" />
+			<string key="org:resource" value="User B" />
+			<int key="cost" value="798" />
+		</event>
+		<event>
+			<string key="concept:name" value="Complete Payment" />
+			<date key="time:timestamp" value="2024-09-18T23:14:18.057649" />
+			<string key="org:resource" value="User A" />
+			<int key="cost" value="822" />
+		</event>
+		<event>
+			<string key="concept:name" value="Ship Order" />
+			<date key="time:timestamp" value="2024-09-21T23:14:18.057649" />
+			<string key="org:resource" value="User B" />
+			<int key="cost" value="366" />
+		</event>
+	</trace>
+	<trace>
+		<string key="case:concept:name" value="Case_78" />
+		<event>
+			<string key="concept:name" value="Ship Order" />
+			<date key="time:timestamp" value="2024-09-05T23:14:18.057649" />
+			<string key="org:resource" value="User B" />
+			<int key="cost" value="216" />
+		</event>
+		<event>
+			<string key="concept:name" value="Ship Order" />
+			<date key="time:timestamp" value="2024-09-07T23:14:18.057649" />
+			<string key="org:resource" value="User C" />
+			<int key="cost" value="366" />
+		</event>
+		<event>
+			<string key="concept:name" value="Complete Payment" />
+			<date key="time:timestamp" value="2024-09-10T23:14:18.057649" />
+			<string key="org:resource" value="User B" />
+			<int key="cost" value="840" />
+		</event>
+		<event>
+			<string key="concept:name" value="Complete Payment" />
+			<date key="time:timestamp" value="2024-09-15T23:14:18.057649" />
+			<string key="org:resource" value="User C" />
+			<int key="cost" value="437" />
+		</event>
+		<event>
+			<string key="concept:name" value="Close Order" />
+			<date key="time:timestamp" value="2024-09-17T23:14:18.057649" />
+			<string key="org:resource" value="User A" />
+			<int key="cost" value="649" />
+		</event>
+	</trace>
+	<trace>
+		<string key="case:concept:name" value="Case_79" />
+		<event>
+			<string key="concept:name" value="Create Order" />
+			<date key="time:timestamp" value="2024-09-05T23:14:18.057649" />
+			<string key="org:resource" value="User B" />
+			<int key="cost" value="883" />
+		</event>
+		<event>
+			<string key="concept:name" value="Close Order" />
+			<date key="time:timestamp" value="2024-09-10T23:14:18.057649" />
+			<string key="org:resource" value="User A" />
+			<int key="cost" value="463" />
+		</event>
+		<event>
+			<string key="concept:name" value="Close Order" />
+			<date key="time:timestamp" value="2024-09-12T23:14:18.057649" />
+			<string key="org:resource" value="User A" />
+			<int key="cost" value="521" />
+		</event>
+		<event>
+			<string key="concept:name" value="Approve Order" />
+			<date key="time:timestamp" value="2024-09-13T23:14:18.057649" />
+			<string key="org:resource" value="User A" />
+			<int key="cost" value="563" />
+		</event>
+		<event>
+			<string key="concept:name" value="Ship Order" />
+			<date key="time:timestamp" value="2024-09-16T23:14:18.057649" />
+			<string key="org:resource" value="User A" />
+			<int key="cost" value="892" />
+		</event>
+	</trace>
+	<trace>
+		<string key="case:concept:name" value="Case_80" />
+		<event>
+			<string key="concept:name" value="Approve Order" />
+			<date key="time:timestamp" value="2024-09-05T23:14:18.057649" />
+			<string key="org:resource" value="User C" />
+			<int key="cost" value="986" />
+		</event>
+		<event>
+			<string key="concept:name" value="Ship Order" />
+			<date key="time:timestamp" value="2024-09-07T23:14:18.057649" />
+			<string key="org:resource" value="User A" />
+			<int key="cost" value="116" />
+		</event>
+		<event>
+			<string key="concept:name" value="Approve Order" />
+			<date key="time:timestamp" value="2024-09-09T23:14:18.057649" />
+			<string key="org:resource" value="User A" />
+			<int key="cost" value="165" />
+		</event>
+		<event>
+			<string key="concept:name" value="Approve Order" />
+			<date key="time:timestamp" value="2024-09-14T23:14:18.057649" />
+			<string key="org:resource" value="User C" />
+			<int key="cost" value="143" />
+		</event>
+		<event>
+			<string key="concept:name" value="Complete Payment" />
+			<date key="time:timestamp" value="2024-09-17T23:14:18.057649" />
+			<string key="org:resource" value="User B" />
+			<int key="cost" value="734" />
+		</event>
+	</trace>
+	<trace>
+		<string key="case:concept:name" value="Case_81" />
+		<event>
+			<string key="concept:name" value="Ship Order" />
+			<date key="time:timestamp" value="2024-09-05T23:14:18.057649" />
+			<string key="org:resource" value="User A" />
+			<int key="cost" value="883" />
+		</event>
+		<event>
+			<string key="concept:name" value="Complete Payment" />
+			<date key="time:timestamp" value="2024-09-10T23:14:18.057649" />
+			<string key="org:resource" value="User A" />
+			<int key="cost" value="234" />
+		</event>
+		<event>
+			<string key="concept:name" value="Close Order" />
+			<date key="time:timestamp" value="2024-09-12T23:14:18.057649" />
+			<string key="org:resource" value="User C" />
+			<int key="cost" value="125" />
+		</event>
+		<event>
+			<string key="concept:name" value="Complete Payment" />
+			<date key="time:timestamp" value="2024-09-16T23:14:18.057649" />
+			<string key="org:resource" value="User B" />
+			<int key="cost" value="424" />
+		</event>
+		<event>
+			<string key="concept:name" value="Complete Payment" />
+			<date key="time:timestamp" value="2024-09-18T23:14:18.057649" />
+			<string key="org:resource" value="User A" />
+			<int key="cost" value="186" />
+		</event>
+	</trace>
+	<trace>
+		<string key="case:concept:name" value="Case_82" />
+		<event>
+			<string key="concept:name" value="Approve Order" />
+			<date key="time:timestamp" value="2024-09-05T23:14:18.057649" />
+			<string key="org:resource" value="User C" />
+			<int key="cost" value="243" />
+		</event>
+		<event>
+			<string key="concept:name" value="Create Order" />
+			<date key="time:timestamp" value="2024-09-07T23:14:18.057649" />
+			<string key="org:resource" value="User A" />
+			<int key="cost" value="630" />
+		</event>
+		<event>
+			<string key="concept:name" value="Ship Order" />
+			<date key="time:timestamp" value="2024-09-11T23:14:18.057649" />
+			<string key="org:resource" value="User A" />
+			<int key="cost" value="488" />
+		</event>
+		<event>
+			<string key="concept:name" value="Close Order" />
+			<date key="time:timestamp" value="2024-09-13T23:14:18.057649" />
+			<string key="org:resource" value="User C" />
+			<int key="cost" value="817" />
+		</event>
+		<event>
+			<string key="concept:name" value="Create Order" />
+			<date key="time:timestamp" value="2024-09-14T23:14:18.057649" />
+			<string key="org:resource" value="User C" />
+			<int key="cost" value="954" />
+		</event>
+	</trace>
+	<trace>
+		<string key="case:concept:name" value="Case_83" />
+		<event>
+			<string key="concept:name" value="Ship Order" />
+			<date key="time:timestamp" value="2024-09-05T23:14:18.057649" />
+			<string key="org:resource" value="User A" />
+			<int key="cost" value="648" />
+		</event>
+		<event>
+			<string key="concept:name" value="Ship Order" />
+			<date key="time:timestamp" value="2024-09-06T23:14:18.057649" />
+			<string key="org:resource" value="User B" />
+			<int key="cost" value="918" />
+		</event>
+		<event>
+			<string key="concept:name" value="Complete Payment" />
+			<date key="time:timestamp" value="2024-09-11T23:14:18.057649" />
+			<string key="org:resource" value="User B" />
+			<int key="cost" value="428" />
+		</event>
+		<event>
+			<string key="concept:name" value="Close Order" />
+			<date key="time:timestamp" value="2024-09-15T23:14:18.057649" />
+			<string key="org:resource" value="User C" />
+			<int key="cost" value="925" />
+		</event>
+		<event>
+			<string key="concept:name" value="Close Order" />
+			<date key="time:timestamp" value="2024-09-20T23:14:18.057649" />
+			<string key="org:resource" value="User C" />
+			<int key="cost" value="849" />
+		</event>
+	</trace>
+	<trace>
+		<string key="case:concept:name" value="Case_84" />
+		<event>
+			<string key="concept:name" value="Create Order" />
+			<date key="time:timestamp" value="2024-09-05T23:14:18.057649" />
+			<string key="org:resource" value="User A" />
+			<int key="cost" value="287" />
+		</event>
+		<event>
+			<string key="concept:name" value="Ship Order" />
+			<date key="time:timestamp" value="2024-09-07T23:14:18.057649" />
+			<string key="org:resource" value="User A" />
+			<int key="cost" value="465" />
+		</event>
+		<event>
+			<string key="concept:name" value="Approve Order" />
+			<date key="time:timestamp" value="2024-09-11T23:14:18.057649" />
+			<string key="org:resource" value="User A" />
+			<int key="cost" value="875" />
+		</event>
+		<event>
+			<string key="concept:name" value="Approve Order" />
+			<date key="time:timestamp" value="2024-09-12T23:14:18.057649" />
+			<string key="org:resource" value="User C" />
+			<int key="cost" value="341" />
+		</event>
+		<event>
+			<string key="concept:name" value="Approve Order" />
+			<date key="time:timestamp" value="2024-09-14T23:14:18.057649" />
+			<string key="org:resource" value="User C" />
+			<int key="cost" value="769" />
+		</event>
+	</trace>
+	<trace>
+		<string key="case:concept:name" value="Case_85" />
+		<event>
+			<string key="concept:name" value="Close Order" />
+			<date key="time:timestamp" value="2024-09-05T23:14:18.057649" />
+			<string key="org:resource" value="User C" />
+			<int key="cost" value="441" />
+		</event>
+		<event>
+			<string key="concept:name" value="Complete Payment" />
+			<date key="time:timestamp" value="2024-09-09T23:14:18.057649" />
+			<string key="org:resource" value="User B" />
+			<int key="cost" value="770" />
+		</event>
+		<event>
+			<string key="concept:name" value="Close Order" />
+			<date key="time:timestamp" value="2024-09-12T23:14:18.057649" />
+			<string key="org:resource" value="User A" />
+			<int key="cost" value="112" />
+		</event>
+		<event>
+			<string key="concept:name" value="Approve Order" />
+			<date key="time:timestamp" value="2024-09-13T23:14:18.057649" />
+			<string key="org:resource" value="User A" />
+			<int key="cost" value="428" />
+		</event>
+		<event>
+			<string key="concept:name" value="Ship Order" />
+			<date key="time:timestamp" value="2024-09-17T23:14:18.057649" />
+			<string key="org:resource" value="User C" />
+			<int key="cost" value="127" />
+		</event>
+	</trace>
+	<trace>
+		<string key="case:concept:name" value="Case_86" />
+		<event>
+			<string key="concept:name" value="Create Order" />
+			<date key="time:timestamp" value="2024-09-05T23:14:18.057649" />
+			<string key="org:resource" value="User B" />
+			<int key="cost" value="856" />
+		</event>
+		<event>
+			<string key="concept:name" value="Close Order" />
+			<date key="time:timestamp" value="2024-09-08T23:14:18.057649" />
+			<string key="org:resource" value="User B" />
+			<int key="cost" value="259" />
+		</event>
+		<event>
+			<string key="concept:name" value="Ship Order" />
+			<date key="time:timestamp" value="2024-09-11T23:14:18.057649" />
+			<string key="org:resource" value="User B" />
+			<int key="cost" value="187" />
+		</event>
+		<event>
+			<string key="concept:name" value="Approve Order" />
+			<date key="time:timestamp" value="2024-09-16T23:14:18.057649" />
+			<string key="org:resource" value="User B" />
+			<int key="cost" value="429" />
+		</event>
+		<event>
+			<string key="concept:name" value="Complete Payment" />
+			<date key="time:timestamp" value="2024-09-17T23:14:18.057649" />
+			<string key="org:resource" value="User C" />
+			<int key="cost" value="902" />
+		</event>
+	</trace>
+	<trace>
+		<string key="case:concept:name" value="Case_87" />
+		<event>
+			<string key="concept:name" value="Ship Order" />
+			<date key="time:timestamp" value="2024-09-05T23:14:18.057649" />
+			<string key="org:resource" value="User B" />
+			<int key="cost" value="527" />
+		</event>
+		<event>
+			<string key="concept:name" value="Close Order" />
+			<date key="time:timestamp" value="2024-09-09T23:14:18.057649" />
+			<string key="org:resource" value="User C" />
+			<int key="cost" value="971" />
+		</event>
+		<event>
+			<string key="concept:name" value="Ship Order" />
+			<date key="time:timestamp" value="2024-09-13T23:14:18.057649" />
+			<string key="org:resource" value="User C" />
+			<int key="cost" value="352" />
+		</event>
+		<event>
+			<string key="concept:name" value="Complete Payment" />
+			<date key="time:timestamp" value="2024-09-15T23:14:18.057649" />
+			<string key="org:resource" value="User B" />
+			<int key="cost" value="894" />
+		</event>
+		<event>
+			<string key="concept:name" value="Complete Payment" />
+			<date key="time:timestamp" value="2024-09-20T23:14:18.057649" />
+			<string key="org:resource" value="User C" />
+			<int key="cost" value="947" />
+		</event>
+	</trace>
+	<trace>
+		<string key="case:concept:name" value="Case_88" />
+		<event>
+			<string key="concept:name" value="Create Order" />
+			<date key="time:timestamp" value="2024-09-05T23:14:18.057649" />
+			<string key="org:resource" value="User B" />
+			<int key="cost" value="783" />
+		</event>
+		<event>
+			<string key="concept:name" value="Approve Order" />
+			<date key="time:timestamp" value="2024-09-07T23:14:18.057649" />
+			<string key="org:resource" value="User B" />
+			<int key="cost" value="356" />
+		</event>
+		<event>
+			<string key="concept:name" value="Create Order" />
+			<date key="time:timestamp" value="2024-09-09T23:14:18.057649" />
+			<string key="org:resource" value="User C" />
+			<int key="cost" value="967" />
+		</event>
+		<event>
+			<string key="concept:name" value="Complete Payment" />
+			<date key="time:timestamp" value="2024-09-11T23:14:18.057649" />
+			<string key="org:resource" value="User C" />
+			<int key="cost" value="359" />
+		</event>
+		<event>
+			<string key="concept:name" value="Complete Payment" />
+			<date key="time:timestamp" value="2024-09-12T23:14:18.057649" />
+			<string key="org:resource" value="User A" />
+			<int key="cost" value="927" />
+		</event>
+	</trace>
+	<trace>
+		<string key="case:concept:name" value="Case_89" />
+		<event>
+			<string key="concept:name" value="Close Order" />
+			<date key="time:timestamp" value="2024-09-05T23:14:18.057649" />
+			<string key="org:resource" value="User A" />
+			<int key="cost" value="361" />
+		</event>
+		<event>
+			<string key="concept:name" value="Create Order" />
+			<date key="time:timestamp" value="2024-09-06T23:14:18.057649" />
+			<string key="org:resource" value="User C" />
+			<int key="cost" value="654" />
+		</event>
+		<event>
+			<string key="concept:name" value="Ship Order" />
+			<date key="time:timestamp" value="2024-09-08T23:14:18.057649" />
+			<string key="org:resource" value="User C" />
+			<int key="cost" value="503" />
+		</event>
+		<event>
+			<string key="concept:name" value="Approve Order" />
+			<date key="time:timestamp" value="2024-09-11T23:14:18.057649" />
+			<string key="org:resource" value="User C" />
+			<int key="cost" value="376" />
+		</event>
+		<event>
+			<string key="concept:name" value="Close Order" />
+			<date key="time:timestamp" value="2024-09-12T23:14:18.057649" />
+			<string key="org:resource" value="User B" />
+			<int key="cost" value="759" />
+		</event>
+	</trace>
+	<trace>
+		<string key="case:concept:name" value="Case_90" />
+		<event>
+			<string key="concept:name" value="Ship Order" />
+			<date key="time:timestamp" value="2024-09-05T23:14:18.057649" />
+			<string key="org:resource" value="User C" />
+			<int key="cost" value="431" />
+		</event>
+		<event>
+			<string key="concept:name" value="Close Order" />
+			<date key="time:timestamp" value="2024-09-09T23:14:18.057649" />
+			<string key="org:resource" value="User A" />
+			<int key="cost" value="698" />
+		</event>
+		<event>
+			<string key="concept:name" value="Create Order" />
+			<date key="time:timestamp" value="2024-09-12T23:14:18.057649" />
+			<string key="org:resource" value="User B" />
+			<int key="cost" value="779" />
+		</event>
+		<event>
+			<string key="concept:name" value="Close Order" />
+			<date key="time:timestamp" value="2024-09-15T23:14:18.057649" />
+			<string key="org:resource" value="User C" />
+			<int key="cost" value="503" />
+		</event>
+		<event>
+			<string key="concept:name" value="Create Order" />
+			<date key="time:timestamp" value="2024-09-18T23:14:18.057649" />
+			<string key="org:resource" value="User B" />
+			<int key="cost" value="653" />
+		</event>
+	</trace>
+	<trace>
+		<string key="case:concept:name" value="Case_91" />
+		<event>
+			<string key="concept:name" value="Complete Payment" />
+			<date key="time:timestamp" value="2024-09-05T23:14:18.057649" />
+			<string key="org:resource" value="User B" />
+			<int key="cost" value="243" />
+		</event>
+		<event>
+			<string key="concept:name" value="Create Order" />
+			<date key="time:timestamp" value="2024-09-09T23:14:18.057649" />
+			<string key="org:resource" value="User B" />
+			<int key="cost" value="758" />
+		</event>
+		<event>
+			<string key="concept:name" value="Ship Order" />
+			<date key="time:timestamp" value="2024-09-14T23:14:18.057649" />
+			<string key="org:resource" value="User C" />
+			<int key="cost" value="390" />
+		</event>
+		<event>
+			<string key="concept:name" value="Close Order" />
+			<date key="time:timestamp" value="2024-09-19T23:14:18.057649" />
+			<string key="org:resource" value="User A" />
+			<int key="cost" value="310" />
+		</event>
+		<event>
+			<string key="concept:name" value="Complete Payment" />
+			<date key="time:timestamp" value="2024-09-24T23:14:18.057649" />
+			<string key="org:resource" value="User B" />
+			<int key="cost" value="433" />
+		</event>
+	</trace>
+	<trace>
+		<string key="case:concept:name" value="Case_92" />
+		<event>
+			<string key="concept:name" value="Close Order" />
+			<date key="time:timestamp" value="2024-09-05T23:14:18.057649" />
+			<string key="org:resource" value="User C" />
+			<int key="cost" value="383" />
+		</event>
+		<event>
+			<string key="concept:name" value="Ship Order" />
+			<date key="time:timestamp" value="2024-09-07T23:14:18.057649" />
+			<string key="org:resource" value="User B" />
+			<int key="cost" value="390" />
+		</event>
+		<event>
+			<string key="concept:name" value="Close Order" />
+			<date key="time:timestamp" value="2024-09-12T23:14:18.057649" />
+			<string key="org:resource" value="User B" />
+			<int key="cost" value="710" />
+		</event>
+		<event>
+			<string key="concept:name" value="Create Order" />
+			<date key="time:timestamp" value="2024-09-16T23:14:18.057649" />
+			<string key="org:resource" value="User B" />
+			<int key="cost" value="318" />
+		</event>
+		<event>
+			<string key="concept:name" value="Complete Payment" />
+			<date key="time:timestamp" value="2024-09-20T23:14:18.057649" />
+			<string key="org:resource" value="User C" />
+			<int key="cost" value="685" />
+		</event>
+	</trace>
+	<trace>
+		<string key="case:concept:name" value="Case_93" />
+		<event>
+			<string key="concept:name" value="Close Order" />
+			<date key="time:timestamp" value="2024-09-05T23:14:18.057649" />
+			<string key="org:resource" value="User A" />
+			<int key="cost" value="340" />
+		</event>
+		<event>
+			<string key="concept:name" value="Create Order" />
+			<date key="time:timestamp" value="2024-09-07T23:14:18.057649" />
+			<string key="org:resource" value="User B" />
+			<int key="cost" value="151" />
+		</event>
+		<event>
+			<string key="concept:name" value="Create Order" />
+			<date key="time:timestamp" value="2024-09-12T23:14:18.057649" />
+			<string key="org:resource" value="User A" />
+			<int key="cost" value="328" />
+		</event>
+		<event>
+			<string key="concept:name" value="Approve Order" />
+			<date key="time:timestamp" value="2024-09-16T23:14:18.057649" />
+			<string key="org:resource" value="User C" />
+			<int key="cost" value="181" />
+		</event>
+		<event>
+			<string key="concept:name" value="Complete Payment" />
+			<date key="time:timestamp" value="2024-09-21T23:14:18.057649" />
+			<string key="org:resource" value="User C" />
+			<int key="cost" value="552" />
+		</event>
+	</trace>
+	<trace>
+		<string key="case:concept:name" value="Case_94" />
+		<event>
+			<string key="concept:name" value="Close Order" />
+			<date key="time:timestamp" value="2024-09-05T23:14:18.057649" />
+			<string key="org:resource" value="User A" />
+			<int key="cost" value="201" />
+		</event>
+		<event>
+			<string key="concept:name" value="Ship Order" />
+			<date key="time:timestamp" value="2024-09-10T23:14:18.057649" />
+			<string key="org:resource" value="User B" />
+			<int key="cost" value="617" />
+		</event>
+		<event>
+			<string key="concept:name" value="Close Order" />
+			<date key="time:timestamp" value="2024-09-12T23:14:18.057649" />
+			<string key="org:resource" value="User B" />
+			<int key="cost" value="435" />
+		</event>
+		<event>
+			<string key="concept:name" value="Create Order" />
+			<date key="time:timestamp" value="2024-09-17T23:14:18.057649" />
+			<string key="org:resource" value="User A" />
+			<int key="cost" value="208" />
+		</event>
+		<event>
+			<string key="concept:name" value="Complete Payment" />
+			<date key="time:timestamp" value="2024-09-19T23:14:18.057649" />
+			<string key="org:resource" value="User B" />
+			<int key="cost" value="415" />
+		</event>
+	</trace>
+	<trace>
+		<string key="case:concept:name" value="Case_95" />
+		<event>
+			<string key="concept:name" value="Create Order" />
+			<date key="time:timestamp" value="2024-09-05T23:14:18.057649" />
+			<string key="org:resource" value="User A" />
+			<int key="cost" value="691" />
+		</event>
+		<event>
+			<string key="concept:name" value="Complete Payment" />
+			<date key="time:timestamp" value="2024-09-10T23:14:18.057649" />
+			<string key="org:resource" value="User B" />
+			<int key="cost" value="1000" />
+		</event>
+		<event>
+			<string key="concept:name" value="Complete Payment" />
+			<date key="time:timestamp" value="2024-09-11T23:14:18.057649" />
+			<string key="org:resource" value="User A" />
+			<int key="cost" value="188" />
+		</event>
+		<event>
+			<string key="concept:name" value="Create Order" />
+			<date key="time:timestamp" value="2024-09-13T23:14:18.057649" />
+			<string key="org:resource" value="User A" />
+			<int key="cost" value="122" />
+		</event>
+		<event>
+			<string key="concept:name" value="Create Order" />
+			<date key="time:timestamp" value="2024-09-17T23:14:18.057649" />
+			<string key="org:resource" value="User A" />
+			<int key="cost" value="666" />
+		</event>
+	</trace>
+	<trace>
+		<string key="case:concept:name" value="Case_96" />
+		<event>
+			<string key="concept:name" value="Close Order" />
+			<date key="time:timestamp" value="2024-09-05T23:14:18.057649" />
+			<string key="org:resource" value="User A" />
+			<int key="cost" value="380" />
+		</event>
+		<event>
+			<string key="concept:name" value="Ship Order" />
+			<date key="time:timestamp" value="2024-09-06T23:14:18.057649" />
+			<string key="org:resource" value="User B" />
+			<int key="cost" value="328" />
+		</event>
+		<event>
+			<string key="concept:name" value="Create Order" />
+			<date key="time:timestamp" value="2024-09-07T23:14:18.057649" />
+			<string key="org:resource" value="User B" />
+			<int key="cost" value="878" />
+		</event>
+		<event>
+			<string key="concept:name" value="Close Order" />
+			<date key="time:timestamp" value="2024-09-09T23:14:18.057649" />
+			<string key="org:resource" value="User B" />
+			<int key="cost" value="727" />
+		</event>
+		<event>
+			<string key="concept:name" value="Ship Order" />
+			<date key="time:timestamp" value="2024-09-11T23:14:18.057649" />
+			<string key="org:resource" value="User B" />
+			<int key="cost" value="927" />
+		</event>
+	</trace>
+	<trace>
+		<string key="case:concept:name" value="Case_97" />
+		<event>
+			<string key="concept:name" value="Ship Order" />
+			<date key="time:timestamp" value="2024-09-05T23:14:18.057649" />
+			<string key="org:resource" value="User A" />
+			<int key="cost" value="783" />
+		</event>
+		<event>
+			<string key="concept:name" value="Ship Order" />
+			<date key="time:timestamp" value="2024-09-08T23:14:18.057649" />
+			<string key="org:resource" value="User B" />
+			<int key="cost" value="494" />
+		</event>
+		<event>
+			<string key="concept:name" value="Ship Order" />
+			<date key="time:timestamp" value="2024-09-11T23:14:18.057649" />
+			<string key="org:resource" value="User A" />
+			<int key="cost" value="969" />
+		</event>
+		<event>
+			<string key="concept:name" value="Ship Order" />
+			<date key="time:timestamp" value="2024-09-15T23:14:18.057649" />
+			<string key="org:resource" value="User A" />
+			<int key="cost" value="298" />
+		</event>
+		<event>
+			<string key="concept:name" value="Ship Order" />
+			<date key="time:timestamp" value="2024-09-18T23:14:18.057649" />
+			<string key="org:resource" value="User C" />
+			<int key="cost" value="552" />
+		</event>
+	</trace>
+	<trace>
+		<string key="case:concept:name" value="Case_98" />
+		<event>
+			<string key="concept:name" value="Close Order" />
+			<date key="time:timestamp" value="2024-09-05T23:14:18.057649" />
+			<string key="org:resource" value="User B" />
+			<int key="cost" value="399" />
+		</event>
+		<event>
+			<string key="concept:name" value="Close Order" />
+			<date key="time:timestamp" value="2024-09-09T23:14:18.057649" />
+			<string key="org:resource" value="User B" />
+			<int key="cost" value="511" />
+		</event>
+		<event>
+			<string key="concept:name" value="Approve Order" />
+			<date key="time:timestamp" value="2024-09-13T23:14:18.057649" />
+			<string key="org:resource" value="User A" />
+			<int key="cost" value="345" />
+		</event>
+		<event>
+			<string key="concept:name" value="Ship Order" />
+			<date key="time:timestamp" value="2024-09-16T23:14:18.057649" />
+			<string key="org:resource" value="User C" />
+			<int key="cost" value="971" />
+		</event>
+		<event>
+			<string key="concept:name" value="Create Order" />
+			<date key="time:timestamp" value="2024-09-17T23:14:18.057649" />
+			<string key="org:resource" value="User C" />
+			<int key="cost" value="531" />
+		</event>
+	</trace>
+	<trace>
+		<string key="case:concept:name" value="Case_99" />
+		<event>
+			<string key="concept:name" value="Complete Payment" />
+			<date key="time:timestamp" value="2024-09-05T23:14:18.057649" />
+			<string key="org:resource" value="User A" />
+			<int key="cost" value="492" />
+		</event>
+		<event>
+			<string key="concept:name" value="Complete Payment" />
+			<date key="time:timestamp" value="2024-09-09T23:14:18.057649" />
+			<string key="org:resource" value="User B" />
+			<int key="cost" value="882" />
+		</event>
+		<event>
+			<string key="concept:name" value="Close Order" />
+			<date key="time:timestamp" value="2024-09-13T23:14:18.057649" />
+			<string key="org:resource" value="User C" />
+			<int key="cost" value="643" />
+		</event>
+		<event>
+			<string key="concept:name" value="Ship Order" />
+			<date key="time:timestamp" value="2024-09-16T23:14:18.057649" />
+			<string key="org:resource" value="User C" />
+			<int key="cost" value="608" />
+		</event>
+		<event>
+			<string key="concept:name" value="Create Order" />
+			<date key="time:timestamp" value="2024-09-18T23:14:18.057649" />
+			<string key="org:resource" value="User C" />
+			<int key="cost" value="222" />
+		</event>
+	</trace>
+	<trace>
+		<string key="case:concept:name" value="Case_100" />
+		<event>
+			<string key="concept:name" value="Complete Payment" />
+			<date key="time:timestamp" value="2024-09-05T23:14:18.057649" />
+			<string key="org:resource" value="User A" />
+			<int key="cost" value="820" />
+		</event>
+		<event>
+			<string key="concept:name" value="Complete Payment" />
+			<date key="time:timestamp" value="2024-09-07T23:14:18.057649" />
+			<string key="org:resource" value="User A" />
+			<int key="cost" value="213" />
+		</event>
+		<event>
+			<string key="concept:name" value="Ship Order" />
+			<date key="time:timestamp" value="2024-09-12T23:14:18.057649" />
+			<string key="org:resource" value="User B" />
+			<int key="cost" value="804" />
+		</event>
+		<event>
+			<string key="concept:name" value="Create Order" />
+			<date key="time:timestamp" value="2024-09-15T23:14:18.057649" />
+			<string key="org:resource" value="User B" />
+			<int key="cost" value="967" />
+		</event>
+		<event>
+			<string key="concept:name" value="Complete Payment" />
+			<date key="time:timestamp" value="2024-09-20T23:14:18.057649" />
+			<string key="org:resource" value="User B" />
+			<int key="cost" value="841" />
+		</event>
+	</trace>
+</log>
